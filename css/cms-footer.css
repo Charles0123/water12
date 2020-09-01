@@ -1,0 +1,6 @@
+/* CSS Document */
+a.tel, a.tel:hover { pointer-events: none; text-decoration:none !important; }
+@media print, screen and (max-width: 999px){
+a.tel, a.tel:hover { pointer-events: initial; }
+}
+

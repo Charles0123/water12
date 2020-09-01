@@ -1,0 +1,446 @@
+.menu {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 160px;
+  /*  max-height: 580px; */
+  margin-top: 103px;
+  margin-left: 15px;
+  position: absolute;
+  height: calc(100% - 102px);
+}
+
+.menu div {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.menu_header {
+  position: relative;
+  line-height: 50px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  background-color: #c1f65e;
+  width: 100%;
+  -webkit-box-shadow: 1px -1px 6px 1px grey;
+  box-shadow: 1px -1px 6px 1px grey;
+
+  height: 50px;
+}
+
+.menu_header > img {
+  position: relative;
+  top: 0px;
+  left: 10px;
+}
+
+.menu_header span {
+  position: absolute;
+  color: #073469;
+  right: 12px;
+}
+
+.menu_wrapper {
+  position: relative;
+  background: #112f5d;
+  height: calc(100% - 20%);
+  -webkit-box-shadow: 1px -1px 6px 1px grey;
+  box-shadow: 1px -1px 6px 1px grey;
+/*  overflow-y: scroll;*/
+}
+
+.menu_content_submenu {
+  position: absolute;
+  display: none;
+  width: 200px;
+  height: 100%;
+  top: 0px;
+  background-color: #16a4fa;
+  left: 159px;
+}
+
+.menu_content_title {
+  cursor: pointer;
+  position: relative;
+  padding-left: 12px;
+  height: 40px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  color: #f9f8f8;
+  font-family: "DFHei Std";
+}
+
+.menu_content_title:before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  bottom: 0;
+  left: 5px;
+  background: #2f568c;
+  height: 2px;
+  border-top: 1px solid #083162;
+  border-bottom: 1px solid #164176;
+
+  z-index: 2;
+}
+
+.menu_content-active .menu_content_title {
+  color: #c1f65e;
+  border-left: 3px solid #c1f65e;
+  padding-left: 9px;
+}
+
+.menu_content-active .menu_content_submenu {
+  display: block;
+}
+
+.menu_content_submenu_title {
+  padding-left: 15px;
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #f9f8f8;
+  font-family: "DFHei Std";
+  height: 40px;
+  line-height: 40px;
+  background-color: #16a4fa;
+}
+
+.menu_content_submenu_title:after {
+  content: "";
+  position: absolute;
+  display: block;
+  right: 12px;
+  top: 16px;
+  width: 6px;
+  height: 6px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*
+.menu_content_submenu_wrapper-active .menu_content_submenu_title {
+  border-left: 3px solid #c1f65e;
+  color: #c1f65e;
+  padding-left: 5px;
+}
+
+.menu_content_submenu_wrapper-active .menu_content_submenu_title:after {
+  border: solid #c1f65e;
+  border-width: 0 2px 2px 0;
+}
+*/
+
+.menu_content_submenu_wrapper {
+  height: calc(100% - 0px);
+  overflow-y: scroll;
+}
+
+.menu_content_submenu_content {
+  padding-left: 23px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  cursor: pointer;
+  padding-left: 30px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #f9f8f8;
+  font-family: "DFHei Std";
+  background-color: #039bf7;
+}
+
+.menu_content_submenu_content-active {
+  color: #c1f65e;
+}
+
+.menu_content_submenu_content:before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  bottom: 0;
+  left: 20px;
+  background: #4aaff8;
+  height: 2px;
+  border-top: 1px solid #1686fa;
+  border-bottom: 1px solid #18a4f7;
+  z-index: 9;
+}
+
+.menu_content_submenu_content:last-child:before {
+  width: 98%;
+  left: 1%;
+}
+
+.dataCCTV div {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dataCCTV {
+  position: absolute;
+  /* left: calc(100% - 71%); */
+  left : 360px;
+  top: 134px;
+  /* width: 70%; */
+  background-color: #164475;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  max-height: 1170px;
+  /* height: calc(100% - 150px); */
+  z-index: 10;
+  -webkit-box-shadow: 0px 0px 2px 1px grey;
+  box-shadow: 0px 0px 2px 1px grey;
+  -webkit-transition: width 0.8s;
+  /* Safari prior 6.1 */
+  transition: width 0.8s;
+  -webkit-transition: left 1s;
+  /* Safari prior 6.1 */
+  transition: left 1s;
+}
+
+.dataCCTV_title {
+  margin-top: 30px;
+  margin-bottom: 4px;
+  padding-bottom: 4px;
+  color: #f0f5f6;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: "DFHei Std";
+}
+
+.dataCCTV_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  /* height:  calc(100% - 10%); */
+  border: 3px solid #494949;
+  background-color: black;
+  margin-bottom: 15px;
+}
+
+.dataCCTV_content {
+  padding-left: 30px;
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+  line-height: 50%;
+  border: 1px solid #222325;
+  padding-bottom:30px;
+}
+.dataCCTV_content_cam{
+   clear: both;
+}
+
+.dataCCTV_content_cam .cam div video{
+  position: absolute;
+}
+
+.dataCCTV_content_title {
+  position: relative;
+  width: 200px;
+  left: -30px;
+}
+.dataCCTV_content_title img, .dataCCTV_content_title span {
+  color: white;
+  font-size: 14px;
+  float: left;
+  margin: 3px;
+}
+.dataCCTV_content_title span {
+  margin-top: 11px;
+}
+
+.dataCCTV_content_cam .cam div video{  
+  position: relative;
+}
+
+.dataCCTV_content_unact {
+  display: none;
+}
+
+.dataCCTV_content_active {
+  display: block;
+}
+.dataCCTV_content_picture_controll img {
+  margin: -1px;
+  margin-bottom: 18px;
+  padding: 0;
+}
+.dataCCTV_content_picture_controll {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  padding: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  border: #c2eaff 2px solid;
+  background-color: white;
+}
+.dataCCTV_zooin {
+  left: 0 !important;  
+  width: 100% !important;
+  -webkit-transition: width 0.8s; /* Safari prior 6.1 */
+  transition: width 0.8s;
+  -webkit-transition: left 1s; /* Safari prior 6.1 */
+  transition: left 1s;
+  z-index: 11;
+}
+.close_menu.rwd {
+  z-index: 12;
+  top: 81px;
+  left: 15px;
+  -webkit-transition: top 0.8s; /* Safari prior 6.1 */
+  transition: top 0.8s;
+  -webkit-transition: left 1s; /* Safari prior 6.1 */
+  transition: left 1s;
+}
+.menu_change {
+    left: 0;
+    top: 0;
+    width: 35px;
+    height: 42px;
+  }
+.menu_change  span{
+    font-size: 0;
+  }
+.zoom_change {
+    left: 70px;
+  }
+
+.video-js {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* 手機版RWD */
+@media screen and (max-width: 425px) {
+  .menu {
+    margin-top: 84px;
+    z-index: 120 !important;
+  }
+  .menu_change {
+    left: 0;
+    top: 0;
+    width: 35px;
+    height: 42px;
+  }
+  .menu_change  span{
+    font-size: 0;
+  }
+  .dataCCTV {
+    left: 15px;
+    top: 98px;
+    width: calc(100% - 29px);
+    height: calc(100% -20px);
+    }
+  .video-js {
+    width: 80%;
+    height: auto;
+  }
+  .dataCCTV_wrapper {
+    display: block;
+    height: auto;
+  }
+  .dataCCTV_content {
+    width: 100%;
+    height: calc(100% - 492px);
+  }
+  .cam {
+    position: relative;
+    top:-10px;
+    
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .menu {
+    margin-top: 84px;
+    z-index: 120 !important;
+  }
+  .menu_change {
+    left: 0;
+    top: 0;
+    width: 35px;
+    height: 42px;
+  }
+  .menu_change  span{
+    font-size: 0;
+  }
+  .dataCCTV {
+    left: 15px;
+    top: 98px;
+    width: calc(100% - 30px);
+  }
+  .video-js {
+    width: 100%;
+  }
+  
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .menu {
+    margin-top: 133px;
+  }
+  .menu_change {
+    left: 0;
+    top: 0;
+    width: 35px;
+    height: 42px;
+  }
+  .menu_change  span{
+    font-size: 0;
+  }
+  .dataCCTV {
+    left: 330px;
+    width: calc(100% - 340px);
+  }
+   .zoom_change {
+    left: 70px;
+    width: calc(100% - 84px);
+  }
+  .video-js {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .menu {
+    margin-top: 132px;
+  }
+  .dataCCTV {
+    left: 330px;
+    width: calc(100% - 340px);
+  }
+   .zoom_change {
+    left: 70px;
+    width: calc(100% - 86px);
+  }
+  .video-js {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1441px){
+  .dataCCTV {
+  left: 330px;
+  width: calc(100% - 355px);
+  }
+  .zoom_change {
+    left: 70px;
+    width: calc(100% - 200px);
+  }
+  .video-js {
+    width: 60%;
+    height: auto;
+  }
+}

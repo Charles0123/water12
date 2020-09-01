@@ -1,0 +1,398 @@
+body {
+    font-family: 微軟正黑體 !important;
+}
+
+#systemMode {
+    background-color: black;
+    height: 815px;
+    width: 1377px;
+    background-image: url("../images/配水系統模型.png");
+    background-repeat: no-repeat;
+    position: relative;
+    top: 70px;
+    right: 50px !important;
+
+}
+
+#waterStation,
+#giveStation,
+#useStation_1,
+#useStation_2,
+#useStation_3,
+#useStation_4,
+#useStation_5,
+#pipeLength_1,
+#pipeDiameter_1,
+#pipeLength_2,
+#pipeDiameter_2,
+#pipeLength_3,
+#pipeDiameter_3,
+#pipeLength_4,
+#pipeDiameter_4,
+#pipeLength_5,
+#pipeDiameter_5,
+#pipeLength_6,
+#pipeDiameter_6,
+#pipeLength_7,
+#pipeDiameter_7,
+#pipeLength_8,
+#pipeDiameter_8,
+#pipeLength_9,
+#pipeDiameter_9,
+#pipeLength_10,
+#pipeDiameter_10,
+#pipeLength_11,
+#pipeDiameter_11,
+#pipeLength_12,
+#pipeDiameter_12,
+#pipeLength_13,
+#pipeDiameter_13 {
+    width: 70px;
+    height: 25px;
+    background-color: #696965;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+}
+
+#waterConsumption_1,
+#waterConsumption_2,
+#waterConsumption_3,
+#waterConsumption_4,
+#waterConsumption_5,
+#waterConsumption_6,
+#waterConsumption_7,
+#waterConsumption_8,
+#waterConsumption_9,
+#waterConsumption_10,
+#waterConsumption_11 {
+    color: red;
+}
+
+.width220 {
+    width: 220px;
+}
+
+.station {
+    position: relative;
+    top: 138px;
+    left: 625px;
+}
+
+.station>span,
+.useWater>span {
+    font-size: 16px;
+}
+
+.giveStation {
+    position: relative;
+    top: 682px;
+    left: 312px;
+}
+
+
+.useWater_1 {
+    position: relative;
+    top: 366px;
+    left: 62px;
+}
+
+.useWater_2 {
+    position: relative;
+    top: 353px;
+    left: 293px;
+}
+
+.useWater_3 {
+    position: relative;
+    top: 315px;
+    left: 618px;
+}
+
+.useWater_4 {
+    position: relative;
+    top: 290px;
+    left: 858px;
+}
+
+.useWater_5 {
+    position: relative;
+    top: 280px;
+    left: 1174px;
+}
+
+.waterConsumption_1 {
+    position: relative;
+    left: 1023px;
+    bottom: 70px;
+    font-size: 12px;
+}
+
+.waterConsumption_2 {
+
+    position: relative;
+    bottom: 70px;
+    left: 823px;
+    font-size: 12px;
+}
+
+.waterConsumption_3 {
+
+    position: relative;
+    bottom: 135px;
+    left: 557px;
+    font-size: 12px;
+}
+
+.waterConsumption_4 {
+    width: 100px;
+    position: relative;
+    bottom: 290px;
+    left: 410px;
+    font-size: 12px;
+}
+
+.waterConsumption_5 {
+    position: relative;
+    bottom: 212px;
+    left: 1060px;
+    font-size: 12px;
+}
+
+.waterConsumption_6 {
+    position: relative;
+    bottom: 123px;
+    left: 1050px;
+    font-size: 12px;
+}
+
+.waterConsumption_7 {
+    position: relative;
+    bottom: 135px;
+    left: 612px;
+    font-size: 12px;
+}
+
+.waterConsumption_8 {
+    position: relative;
+    bottom: 110px;
+    left: 612px;
+    font-size: 12px;
+}
+
+.waterConsumption_9 {
+    position: relative;
+    bottom: 435px;
+    left: 480px;
+    font-size: 12px;
+}
+
+.waterConsumption_10 {
+    position: relative;
+    bottom: 311px;
+    left: 260px;
+    font-size: 12px;
+}
+
+.waterConsumption_11 {
+    position: relative;
+    bottom: 300px;
+    left: 120px;
+    font-size: 12px;
+}
+
+.waterConsumption_12 {
+    position: relative;
+    bottom: 290px;
+    left: 1010px;
+    font-size: 12px;
+}
+
+.waterConsumption_13 {
+    position: relative;
+    bottom: 364px;
+    left: 612px;
+    font-size: 12px;
+}
+
+.flowImage {
+    width: 20px;
+}
+
+.controlBar {
+    position: relative;
+    float: right;
+}
+
+.controlBar li {
+    float: left;
+    margin: 10px 10px 10px 0;
+    list-style-type: none;
+}
+
+.controlBar li input,
+.controlBar li button {
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.nav-link {
+    width: 100px;
+    padding: 6px;
+    border-radius: 5px;
+    margin: 0 5px;
+    background: rgba(17, 47, 93, .85);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    background: #33b9ff;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+#pipe_flow {
+    height: 690px;
+}
+
+
+/* 配水系統分析結果CSS */
+table {
+    text-align: center;
+    position: relative;
+}
+
+.table-result {
+    color: #000000;
+    font-size: 36px;
+    margin: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+thead {
+    font-size: 24px;
+}
+
+tr:nth-child(1) th:nth-child(1) {
+    border-color: none;
+    padding: 0;
+    width: 1px;
+    height: 0px;
+    width: 350px;
+
+}
+
+th {
+    line-height: 80px;
+}
+
+.slash {
+    border-top: 4.3em solid #212529;
+    border-left: 350px solid #3dc9f3;
+    width: 0px;
+    height: 50px;
+    position: relative;
+}
+
+b {
+    font-style: normal;
+    display: block;
+    position: relative;
+}
+
+b:nth-child(1) {
+    top: -4.5em;
+    left: -100px;
+    width: 100px;
+}
+
+b:nth-child(2) {
+    top: -6em;
+    left: -300px;
+    width: 150px;
+}
+
+tbody {
+    font-size: 26px;
+}
+
+@media (max-width:1450px) {
+    .slash {
+        border-top: 7.7em solid #212529;
+    }
+
+    b:nth-child(1) {
+        top: -6.5em;
+        left: -100px;
+        width: 100px;
+    }
+}
+
+@media (max-width:1076px) {
+
+    .slash {
+        border-top: 11em solid #212529;
+    }
+
+    b:nth-child(1) {
+        top: -8em;
+        left: -100px;
+        width: 100px;
+    }
+}
+
+@media (max-width:972px) {
+
+    .slash {
+        border-top: 14.5em solid #212529;
+    }
+
+    b:nth-child(1) {
+        top: -10.5em;
+        left: -100px;
+        width: 100px;
+    }
+}
+
+
+@media (max-width: 945px) {
+    thead {
+        display: none;
+    }
+
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    tr:nth-last-child(1) td:nth-child(1) {
+        display: none;
+    }
+
+    td:hover {
+        box-shadow: 1px 1px 1px yellow;
+        background-color: #aaaaaa;
+    }
+
+    td {
+        padding: 0.3em 0.5em;
+        text-align: center;
+        border: 1px solid #000000;
+        margin: 5px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    td::before {
+        content: attr(data-title);
+        display: inline-block;
+        width: auto;
+        min-width: 20%;
+        font-weight: 900;
+        padding-right: 1rem;
+    }
+}

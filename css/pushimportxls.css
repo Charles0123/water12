@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap');
+
+    .custom-file-label::after {
+        display: none !important;
+    }
+    .wrap h2 {
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        margin: 10px;
+    }
+    .wrap h5 {
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        margin: 10px;
+    }
+    .box {
+        display: flex !important;
+        text-align: center;
+    }
+    /* .box input[type=checkbox]:checked {
+        background-color: #a77e2d !important;
+        color: #ffffff !important;
+    } */
+    table {
+        width: 285px;
+        height: 241px;
+        margin: 13px;
+        font-size: 15px;
+    }
+    table, th, td {
+        border: 1px solid #dee2e6;
+        padding: 10px;
+        padding-top: 0;
+    }
+    table tr th:first div{
+      padding: 3px 0;
+    }
+    table .txt {
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    /* .selected {
+        box-sizing: border-box; 
+        background-color: #f8f8f8; 
+    } */
+.propert {
+  position: relative;
+}
+    .printFlag.active {
+        background-color: #fbfbfb;
+        color: #737373;
+    }
+    .printFlag {
+      margin:5px;
+      background-color: #fff;
+      color: #212529;
+    }
+  .mask {
+    background-color: red;
+    position: absolute;
+    margin: 0;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+  }
+  .mask div{
+    position: relative;
+    margin: 0 auto;
+    width:100%;
+
+  }
+  .col-sm-4, #all.active {
+    display: block;
+  }
+  .col-sm-4.QRC_preview, #all {
+    display: none;
+  }
+#nav1, #nav2 {
+  color: white;
+}
+input[type=checkbox] {
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  #nav1 {
+    display: none;
+  }
+  #nav2 {
+    position: relative;
+    display: block;
+    top: -20px;
+  }
+  h2.tit {
+    font-size: 25px;
+  }
+  h5.subtit{
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  #nav1 {
+    display: block;
+  }
+  #nav2 {    
+    display: none;
+  }
+  h2.tit {
+    font-size: 32px;
+  }
+  h5.subtit{
+    font-size: 26px;
+  }  
+}
+
+.mobile_mask {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+/*
+div[class^="nobreak_"] {
+  width: 100%;
+}
+div[class^="nobreak_"] div {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  float: left;
+}
+*/

@@ -1,0 +1,56 @@
+.basicDataMessageBox > div div {}
+
+.basicDataMessageBox {
+  width: 300px !important;
+  max-height: 230px !important;
+  border-radius: 0px !important;
+
+}
+
+.basicDataMessageBox > div > p {
+  margin: 0px !important;
+}
+
+.basicDataMessageBox > div {
+  position: relative !important;
+  margin: 0px !important;
+  background-color: #33b9ff !important;
+  /* width: 106px !important; */
+}
+
+.basicDataMessageBox > div > div > div {
+  font-size: 12px !important;
+  /* height: 36px; */
+  /* border-bottom:3px solid #33f3ff !important; */
+  /* background-color: rgb(51, 185, 255) !important; */
+  width: 82%;
+  margin: auto !important;
+  border-bottom: #37a5ff 2px solid;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.basicDataMessageBoxHeader {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 36px;
+  background-color: black !important;
+  color: white !important;
+  text-align: center;
+  border-bottom: 0px;
+  width: 100% !important;
+}
+
+.basicDataMessageBox > div > div > div > div:nth-of-type(1) {
+  color: black !important;
+  /* border-bottom:3px solid #33f3ff !important; */
+  /* background-color: rgb(51, 185, 255) !important; */
+}
+
+.basicDataMessageBox > div > div > div > div:nth-of-type(2) {
+  color: white !important;
+}
+
+.basicDataMessageBox + img {
+  display: none !important;
+}

@@ -1,0 +1,307 @@
+.all,
+body{
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+}
+@media only screen and (max-device-width: 899px) and (orientation: landscape) {
+    .all,
+    body{
+        height: auto;
+        min-height: 10px;
+    }
+}
+.all{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+@media only screen and (max-width: 1050px) and (orientation: landscape) {
+    .all{
+        padding: 25px 0;
+    }
+}
+.container{
+    width: 890px;
+    max-width: 90%;
+}
+.header{
+    width: 100%;
+    text-align: right;
+    padding: 0 0 30px;
+    float: left;
+}
+@media only screen and (max-width: 767px){
+    .header{
+        padding: 0 0 10px;
+    }
+}
+@media only screen and (max-width: 1050px) and (orientation: landscape) {
+    .header{
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 960px) and (orientation: landscape) {
+    .header{
+        padding: 0 0 10px;
+    }
+}
+@media only screen and (max-width: 899px) and (orientation: landscape) {
+    .header{
+        padding: 20px 0 10px;
+    }
+}
+
+.main{
+    background: url(../images/icons/login-pic.png) top center no-repeat;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 130px 0 20px;
+}
+@media only screen and (max-width: 960px) and (orientation: landscape) {
+    .main{
+        padding: 80px 0 20px;
+    }
+}
+@media only screen and (max-width: 960px) and (orientation: landscape) {
+    .main{
+        background-size: 80%;
+        padding: 60px 0 20px;
+    }
+}
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+    .main{
+        padding: 60px 0;
+    }
+}
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+    .main{
+        background-size: 100%;
+    }
+    
+}
+@media only screen and (max-width: 767px){
+    .main{
+        background: none;
+        padding: 10px 0;
+    }
+}
+.text{
+    float: right;
+    font-size: 125px;
+    line-height: 125px;
+    width: auto;
+    color: #fff;
+    font-weight: bold;
+    margin-right: -20px;
+    padding-top: 20px;
+}
+@media only screen and (max-width: 900px) {
+    .text{
+        font-size: 95px;
+        line-height: 95px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .text{
+        display: none;
+    }
+}
+.login{
+    background: url(../images/icons/login-tablebg.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 5px 5px 16px #03589f;
+    float: right;
+    color: #fff;
+    padding: 15px;
+    width: 50%;
+}
+@media only screen and (max-width: 960px) and (orientation: landscape) {
+    .login{
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .login{
+        width: 100%;
+    }
+}
+
+.login ul{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+.login ul li{
+    position: relative;
+    width: 100%;
+    float: left;
+    padding-top: 55px;
+}
+@media only screen and (max-width: 960px) and (orientation: landscape) {
+    .login ul li{
+        padding-top: 45px;
+    }
+}
+@media only screen and (max-width: 899px) and (orientation: landscape) {
+    .login ul li{
+        padding-top: 25px;
+    }
+}
+@media only screen and (max-width: 400px) and (orientation: portrait){
+    .login ul li{
+        padding-top: 35px;
+    }
+    
+}
+.login .last{
+    font-size: 12px;
+    text-align: center;
+}
+.login label{
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+}
+.login input[type=text],
+.login input[type=password]{
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #33f3ff;
+    color: #c2f660;
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+/*webkit瀏覽器專用*/
+.login  ::-webkit-input-placeholder { color: #c2f660; }
+/*Firefox 4-18瀏覽器專用*/
+.login  input::-moz-placeholder { color: #c2f660; }
+/*Firefox 19+瀏覽器專用*/
+.login  input::-moz-placeholder{color:#c2f660;}
+/*IE10瀏覽器專用*/
+.login:-ms-input-placeholder{color: #c2f660;}
+
+.login ul li a{
+    font-size: 13px;
+    color: #33f3ff;
+}
+.login ul li a:hover{
+    color: #fff;
+}
+.login input[type=submit]{
+    background: #fff;
+    border-radius: 30px;
+    color: #073469;
+    font-size: 18px;
+    padding: 5px 40px;
+    box-shadow: -2px -2px 5px rgba(255,255,255,.5), 2px 2px 5px rgba(0,0,0,.5),inset -2px -2px 5px rgba(0,0,0,.5);
+    border: 0;
+    margin-right: 20px;
+}
+.login input[type=submit]:hover{
+    opacity: 1;
+    background: #073469;
+    color: #fff;
+}
+.login .btnW{
+    position: absolute;
+    cursor: pointer;
+    right: 0px; 
+    text-decoration: underline;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600; 
+}
+.login .btnW:hover{
+   cursor: pointer;
+    color: #33f3ff;
+}
+.marquee{
+/*
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+*/
+    font-size: 14px;
+    color: #3366ff;
+    width: 40%;
+    float: left;
+    margin: 12% 0 0 10%;
+}
+.marquee >div{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.marquee >div:after{
+    position: absolute;
+    left: 0;
+    top:calc(50% - 1.5px);
+    width: 20px;
+    height: 3px;
+    background: #c2f660;
+}
+.marquee ul,
+.marquee ul li{
+    width: 100%;
+    float: left;
+}
+.marquee ul{
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+
+.marquee ul li{
+    padding: 10px 0;
+    height: 40px;
+    width: 300px;
+    overflow: hidden;
+}
+.marquee ul span.line{
+    float: left;
+    width: 20px;
+    height: 3px;
+    background: #c2f660;
+}
+@media only screen and (max-width: 830px){
+    .marquee{
+        margin: 20% 0 0 5%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .marquee{
+        position: relative;
+        width: 100%;
+        float: left;
+        padding: 20px 0 0;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .marquee ul,
+    .marquee >div,
+    .marquee ul li{
+        float: none;
+        width: auto;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 1050px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 990px) and (orientation: landscape) {
+    .marquee{
+        margin: 14% 0 0 14%;
+    }
+}
+
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+}

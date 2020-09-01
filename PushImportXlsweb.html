@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/pushimportxls.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+  <title>匯入財產標籤</title>
+  <link rel="shortcut icon" href="images/favicon-32.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="mobile_mask"><img src="./images/3bHf.gif" style="width: 50px;left: 50%;position: absolute;top: 50%;"></div>
+    <div class="container">
+      <div id="div_print">
+       <div class="titleCap">
+        <h2 class="tit text-center">台灣自來水股份有限公司</h2>
+        <h5 class="subtit text-center">財產保管單</h5>
+        <div class="noPrint" class="_print">
+          <div class="row mb-2">
+            <div class="col-sm-8">
+              <form class="form-inline">
+                <div class="form-row align-items-center">
+                  <label class="col-form-label mr-2">財產標籤</label>
+                  <div class="col-6 custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile01" accept=".xlsx" style="opacity: 1; top: 4px; ">
+                    <label class="custom-file-label" for="inputGroupFile01"></label>
+                  </div>
+                  <div class="col-3">
+                    <button type="button" class="btn btn-primary" id="select_" style="  z-index: 20; position: relative;">匯入Xls</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-sm-4"  id="nav1">
+              <div class="my-1 text-right">
+                <a class="btn btn-primary" id="" onclick="QRC_preview(this)" target="_new">預覽</a>
+                <button type="button" class="btn btn-primary" id="bt" onclick="window.print();">列印</button>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-8">
+              <div class="form-row align-items-center">
+                <label class="col-form-label mr-2">使用單位</label>
+                <div class="col-5 custom-file">
+                  <select class="form-control">
+                    <option>尚無單位目錄</option>
+                  </select>
+                </div>
+                <div class="">
+                  <button type="button" class="btn btn-primary" id="gen_labe">產生財產標籤</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-3" style="margin-top: 20px;">
+          <div class="col-5 col-sm-6">
+            <div id="useUnit">使用單位：</div>
+          </div>
+          <div class="col-7 col-sm-6 ">
+            <div id="print_date" class="text-right mr-4"></div>
+          </div>
+        </div> 
+        </div>
+        <div class="row noPrint" class="">
+       </div>
+          <div class="my-1 noPrint" id="all" style="margin-left: 25px;">
+            <label for="all" style="position: relative; top: -3px; left: 6px; float:right">全選/全不選</label>
+            <input type="checkbox" name="all" onclick="check_all(this,'c')">
+          </div>
+          <div class="col-sm-4" id="nav2">
+              <div class="my-1 text-right">
+                <a class="btn btn-primary" id="" onclick="QRC_preview(this)" target="_new">預覽</a>
+                <button type="button" class="btn btn-primary" id="bt" onclick="window.print();">列印</button>
+              </div>
+          </div>
+        
+        <div class="row mb-5 no-gutters propert"></div>
+      </div>
+    </div>
+</div>
+    <script type="text/javascript" src="./js/jquery-3.4.0.min.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./jquery/jquery.ui.touch-punch.js"></script>
+    <script type="text/javascript" src="./js/nicescroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <script src="./js/xls/canvas-datagrid.js"></script>
+    <script src="./js/xls/shim.js"></script>
+    <script src="./js/xls/xlsx.full.min.js"></script>
+    <script type="text/javascript" src="./js/PushImportXls.js"></script>
+    <script>
+      var d = new Date();
+      document.getElementById("print_date").innerHTML = "印表日期：" + d.toDateString();
+
+    </script>
+    <script language="javascript">
+      // function print_page() {
+      // if (!!window.ActiveXObject || "ActiveXObject" in window) { //是否ie
+      // remove_ie_header_and_footer();
+      // }
+      // window.print();
+      // }
+      // function remove_ie_header_and_footer() {
+      // var hkey_path;
+      // hkey_path = "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\PageSetup\\";
+      // try {
+      // var RegWsh = new ActiveXObject("WScript.Shell");
+      // RegWsh.RegWrite(hkey_path   "header", "");
+      // RegWsh.RegWrite(hkey_path   "footer", "");
+      // } catch (e) {
+      // }
+      // }
+
+
+//              var HKEY_Root,HKEY_Path,HKEY_Key;
+//      
+//              HKEY_Root="HKEY_CURRENT_USER";
+//      
+//              HKEY_Path="//Software//Microsoft//Internet Explorer//PageSetup//";
+//      
+//              var head,foot,top,bottom,left,right;
+//      
+//              var Wsh=new ActiveXObject("WScript.Shell");
+//      
+//              HKEY_Key="header";
+//      
+//              //設定頁首(為空) 根據你自己要設定的填入 
+//      
+//              Wsh.RegWrite(HKEY_Root+HKEY_Path+HKEY_Key,"");
+//      
+//              HKEY_Key="footer";
+//      
+//              //設定頁尾(為空) 根據你自己要設定的填入 
+//      
+//              Wsh.RegWrite(HKEY_Root+HKEY_Path+HKEY_Key,"0");
+//      
+//              HKEY_Key="margin_bottom";
+//      
+//              //設定下頁邊距(0) 根據你自己要設定的填入 
+//      
+//              Wsh.RegWrite(HKEY_Root+HKEY_Path+HKEY_Key,"50");
+//      
+//              HKEY_Key="margin_left";
+//      
+//              //設定左頁邊距(0) 根據你自己要設定的填入 
+//      
+//              Wsh.RegWrite(HKEY_Root+HKEY_Path+HKEY_Key,"0");
+//      
+//              HKEY_Key="margin_right";
+//      
+//              //設定右頁邊距(0)
+//      
+//              Wsh.RegWrite(HKEY_Root+HKEY_Path+HKEY_Key,"0");
+//      
+//              HKEY_Key="margin_top";
+//      
+//              //設定上頁邊距(8)
+//      
+//              Wsh.RegWrite(HKEY_Root+HKEY_Path+HKEY_Key,"1");
+
+    </script>
+   
+</body>
+
+</html>

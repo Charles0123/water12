@@ -1,0 +1,51 @@
+    /* 列印會生效 */
+    @media print {
+
+        .wrap h2 {
+            text-align: center;
+            display: block !important;
+        }
+        .wrap h5 {
+            text-align: center;
+            display: block !important;
+        }
+        * {
+            -webkit-print-color-adjust: exact !important;
+          
+        }
+        .titleCap {
+          min-height: 245px; 
+          padding-top: 100px;
+        }
+/*      不被換頁的元素*/
+        .noBreak table{
+          page-break-inside: avoid;
+          margin: 1;
+          orphans:1 ;
+/*          widow :2;*/
+        }
+        .noPrint {
+            display: none !important;
+        }
+        input[type=checkbox] {
+            display: none;
+        }
+        .noBreak div{
+          page-break-after: avoid !important;
+          page-break-inside: avoid !important;
+          
+        }
+        
+    }
+    @page:first {
+/*
+      margin-top: 0.1cm ;
+      margin-bottom: 5.7cm ;
+*/
+      margin-top: 1cm ;
+      margin-bottom: 4.7cm ;
+    }
+    @page {
+      margin-bottom: 5;
+    }
+    

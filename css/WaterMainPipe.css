@@ -1,0 +1,201 @@
+
+body {
+    background-image: url("../images/report-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 12px;
+}
+
+#last_dataTime {
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    top: 5px;
+    right: 10px;
+    float: left;
+    background-color: white;
+    width: 165px;
+    padding: 2px;
+}
+.balaImg {
+    position: relative;
+    max-width: 100%; 
+    margin: auto;
+    margin-top: 131px;
+/*    border: 1px solid red;*/
+}
+.mappingConte{
+  position: relative;
+  margin:  0 auto;
+  padding: 0 20px;
+  text-align: center;
+  /* width: 64%; */
+}
+.setposition div div:first-child{
+  color: #ebf6ff;
+  text-align: center;
+/*  background-color: #313131;*/
+  background-color: #33b9ff;
+  border-radius: 3px 3px 0 0;
+  padding: 2px 10px;
+  
+}
+.setposition >div div:nth-of-type(2) {
+/*  background-color:  #33b9ff;*/
+  background-color:  #073469;
+/*  border-bottom: 4px solid #33f3ff;*/
+  border-radius: 0 0 3px 3px;
+  color: white;
+  padding: 5px 5px 5px 5px;
+/*  opacity: 0.9;*/
+}
+.setposition >div div:nth-of-type(3) i {
+  font-size: 0.5em;
+  color: red;
+  text-shadow: 0px 6px 10px gray;
+  
+}
+
+.y1 { position: absolute; top: calc(100% - 58%);}
+.y2 { position: absolute; top: calc(100% - 94%);}
+.y3 { position: absolute; top: calc(100% - 69%);}
+.y4 { position: absolute; top: calc(100% - 77%);}
+.y5 { position: absolute; top: calc(100% - 79.5%);}
+.y6 { position: absolute; top: calc(100% - 79%);}
+.y7 { position: absolute; top: calc(100% - 61%);}
+.y8 { position: absolute; top: calc(100% - 27%);}
+.y9 { position: absolute; top: calc(100% - 77%);}
+
+
+.x1 { position: absolute; left: calc(100% - 74%);}
+.x2 { position: absolute; left: calc(100% - 57%);}
+.x3 { position: absolute; left: calc(100% - 54%);}
+.x4 { position: absolute; left: calc(100% - 83%);}
+.x5 { position: absolute; left: calc(100% - 41%);}
+.x6 { position: absolute; left: calc(100% - 73%);}
+.x7 { position: absolute; left: calc(100% - 83%);}
+.x8 { position: absolute; left: calc(100% - 58%);}
+.x9 { position: absolute; left: calc(100% - 59%);}
+/*
+
+/* 列 */
+/*
+.y1 { position: absolute; top: calc(100% - 55%);}
+.y2 { position: absolute; top: calc(100% - 95%);}
+.y3 { position: absolute; top: calc(100% - 69%);}
+.y4 { position: absolute; top: calc(100% - 75%);}
+.y5 { position: absolute; top: calc(100% - 81%);}
+.y6 { position: absolute; top: calc(100% - 82%);}
+.y7 { position: absolute; top: calc(100% - 62%);}
+.y8 { position: absolute; top: calc(100% - 26%);}
+.y9 { position: absolute; top: calc(100% - 77%);}
+
+ 行 
+.x1 { position: absolute; left: calc(100% - 77%);}
+.x2 { position: absolute; left: calc(100% - 58%);}
+.x3 { position: absolute; left: calc(100% - 56%);}
+.x4 { position: absolute; left: calc(100% - 88%);}
+.x5 { position: absolute; left: calc(100% - 40%);}
+.x6 { position: absolute; left: calc(100% - 75%);}
+.x7 { position: absolute; left: calc(100% - 88%);}
+.x8 { position: absolute; left: calc(100% - 60%);}
+.x9 { position: absolute; left: calc(100% - 58%);}
+*/
+
+/*
+.y1 { position: absolute; top: calc(100% - 41%);}
+.y2 { position: absolute; top: calc(100% - 84%);}
+.y3 { position: absolute; top: calc(100% - 60.5%);}
+.y4 { position: absolute; top: calc(100% - 91%);}
+.y5 { position: absolute; top: calc(100% - 69%);}
+.y6 { position: absolute; top: calc(100% - 75.5%);}
+.y7 { position: absolute; top: calc(100% - 49.5%);}
+.y8 { position: absolute; top: calc(100% - 13.5%);}
+.y9 { position: absolute; top: calc(100% - 70.5%);}
+
+ 行 
+.x1 { position: absolute; left: calc(100% - 71.5%);}
+.x2 { position: absolute; left: calc(100% - 41.5%);}
+.x3 { position: absolute; left: calc(100% - 51%);}
+.x4 { position: absolute; left: calc(100% - 81.5%);}
+.x5 { position: absolute; left: calc(100% - 32.5%);}
+.x6 { position: absolute; left: calc(100% - 67.5%);}
+.x7 { position: absolute; left: calc(100% - 83.5%);}
+.x8 { position: absolute; left: calc(100% - 53.5%);}
+.x9 { position: absolute; left: calc(100% - 45.5%);}
+*/
+/*
+.balaImg span:first-child {
+  display: none;
+}
+*/
+
+.nor_ {
+  color: rgb(0, 255, 1);
+  background-color: #073469;
+}
+.s_err {
+  color: rgb(253, 255, 0);
+  background-color: #073469;
+}
+.b_err {
+  color: rgb(253, 0, 2);
+  background-color: #073469;  
+}
+.offline {
+  color: white;
+  background-color: gray; 
+}
+input{
+    border-width: 0;
+    background-color: transparent;
+    width:80px;
+    max-width:180px;
+    padding: 2px;
+/*    height: 18px;*/
+    font-size: 12px;
+  border-radius: 2px;
+}
+
+
+@media only screen and (min-width: 850px) and (max-width: 1280px) {
+  .balaImg {
+  max-width:80%;
+    
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 849px) {
+  .balaImg {
+  max-width:95%;
+    margin-top: 88px;
+  }
+  .balaImg input {
+    width:85px;
+    padding: 0 2px;
+    font-size: 12px;
+  }
+  .balaImg h6 {
+	font-size: 12px;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 449px) {
+  .balaImg {
+  max-width:100%;
+        margin: 20px;
+    margin-top: 88px;
+    margin-bottom: 0px;
+  }
+  .balaImg input {
+    width:57px;
+    padding: 0;
+    font-size: 8px;
+  }
+  .balaImg h6 {
+	font-size: 12px;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 966px) {  
+  .balaImg {
+    margin-top: 180px; 
+  }
+}

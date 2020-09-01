@@ -1,0 +1,99 @@
+
+body {
+    background-image: url("../images/report-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.balaImg {
+    position: relative;
+   max-width: 60%;  
+    margin: auto;
+    margin-top: 135px;
+/*    border: 1px solid red;*/
+}
+.mappingConte{
+  position: relative;
+  margin:  0 auto;
+  padding: 0 20px;
+  text-align: center;
+  /* width: 64%; */
+}
+.y1 { position: absolute; top: calc(100% - 26.5%);}
+.y2 { position: absolute; top: calc(100% - 16.5%);}
+.y3 { position: absolute; top: calc(100% - 7.5%);}
+.y4 { position: absolute; top: calc(100% - 28.5%);}
+.y5 { position: absolute; top: calc(100% - 21.5%);}
+.y6 { position: absolute; top: calc(100% - 14.5%);}
+.y7 { position: absolute; top: calc(100% - 7.5%);}
+
+.x1 { position: absolute; left: calc(100% - 70.5%);}
+.x2 { position: absolute; left: calc(100% - 56.5%);}
+.x3 { position: absolute; left: calc(100% - 42.5%);}
+.x4 { position: absolute; left: calc(100% - 25.5%);}
+
+.balaImg span {
+  display: none;
+}
+
+.nor_ {
+  color: rgb(0, 255, 1);
+  background-color: #073469;
+}
+.s_err {
+  color: rgb(253, 255, 0);
+  background-color: #073469;
+}
+.b_err {
+  color: rgb(253, 0, 2);
+  background-color: #073469;
+}
+.offline {
+  color: white;
+  background-color: gray; 
+}
+input{
+    border-width: 0;
+    background-color: transparent;
+    width:100px;
+    padding: 2px;
+/*    height: 18px;*/
+    font-size: 12px;
+  border-radius: 2px;
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1280px) {
+  .balaImg {
+  max-width:80%;
+    
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 849px) {
+  .balaImg {
+  max-width:95%;
+    margin-top: 88px;
+  }
+  .balaImg input {
+    width:85px;
+    padding: 0 2px;
+    font-size: 12px;
+  }
+  .balaImg h6 {
+	font-size: 12px;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 449px) {
+  .balaImg {
+  max-width:100%;
+        margin: 20px;
+    margin-top: 88px;
+    margin-bottom: 0px;
+  }
+  .balaImg input {
+    width:57px;
+    padding: 0;
+    font-size: 8px;
+  }
+  .balaImg h6 {
+	font-size: 12px;
+  }
+}

@@ -1,0 +1,187 @@
+/* CSS Document */
+body {	
+    margin:0;
+    font-family:\5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4,Arial,sans-serif; 
+    -webkit-text-size-adjust:none;
+    -moz-text-size-adjust:none;
+    -ms-text-size-adjust:none;
+    text-size-adjust:none;
+    -webkit-text-size-adjust:100%;
+    font-size: 16px;
+    color: #000;
+    background: url(../images/icons/bg.png) top left no-repeat #33baff;
+    background-size: cover;
+    padding-top: constant(safe-area-inset-top);
+    padding-right: constant(safe-area-inset-right);
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-left: constant(safe-area-inset-left);
+    
+    
+}
+@media only screen and (max-width: 1379px) {
+    body{
+        background: url(../images/icons/bg.png) top left -250px no-repeat #33baff;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    body{
+        background: url(../images/icons/bg.png) top left -150px no-repeat #33baff;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width: 1100px) and (orientation: portrait)  {
+    body{
+        background: url(../images/icons/bg.png) top left -750px no-repeat #33baff;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width: 767px){
+    body{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 500px) and (orientation: portrait){
+    body{
+        background: url(../images/icons/bg.png) top left -550px no-repeat #33baff;
+        background-size: cover;
+    }
+}
+
+a { 
+    text-decoration:none; 
+    transition: 0.3s all;
+	-webkit-transition: 0.3s all;
+	-o-transition: 0.3s all;
+	-moz-transition: 0.3s all;
+	-ms-transition: 0.3s all;
+}
+a:hover { text-decoration:none;  }
+
+a[href^="tel:"] {
+    color: #fff;
+}
+@media only screen and (min-width: 769px) {
+    a[href^="tel:"] {
+        pointer-events: none;
+        cursor: default;
+        
+    }
+    .a7 .table .left li a[href^="tel:"]{
+        text-decoration: none;
+    }
+}
+
+input,button,select,textarea{outline:none}
+ *:focus { outline: none; }
+
+* { 
+    margin:0; 
+    padding:0; 
+    list-style:none;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
+*:after {
+	content: "";
+/*    display: block;*/
+    clear: both;
+	font-size:0;
+}
+table{
+    max-width: 100%;
+}
+img {max-width:100%; vertical-align: bottom; border: 0;}
+
+.container{
+    width: 950px;
+    max-width: 90%;
+    margin: auto;
+    position: relative;
+}
+.all>div{
+    margin: 0;
+}
+form{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+input[type=text], 
+input[type=button], 
+input[type=submit], 
+input[type=password], 
+input[type=email], 
+input[type=file], 
+input[type=reset], 
+input[type=tel], 
+input[type=search],
+input[type=date], 
+textarea, 
+select, 
+button, 
+.btn {
+    -webkit-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    padding: 5px;
+    font-family:Tahoma,Arial,sans-serif,\5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4; 
+    font-size: 16px;
+}
+input[type=range]{
+    -webkit-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input[type=button], 
+input[type=submit], 
+input[type=reset],
+button{
+    cursor: pointer;
+    transition: 0.3s all;
+	-webkit-transition: 0.3s all;
+	-o-transition: 0.3s all;
+	-moz-transition: 0.3s all;
+	-ms-transition: 0.3s all;
+}
+input[type=button]:hover, 
+input[type=submit]:hover, 
+input[type=reset]:hover{
+    opacity: .7;
+}
+select {
+    background-image: url(../images/icons/arrow3.png);
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    padding-right: 30px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}
+@media only screen and (max-width: 1200px) {
+    .block{
+        display: none;
+    }
+    .none{
+        display: inline-block;
+    }
+}

@@ -1,0 +1,229 @@
+body {
+    font-family: 微軟正黑體 !important;
+}
+
+#systemMode {
+    background-color: black;
+    height: 815px;
+    width: 1377px;
+    background-image: url("../images/配水系統模型.png");
+    background-repeat: no-repeat;
+    position: relative;
+    top: 70px;
+    right: 50px;
+
+}
+
+#waterStation,
+#giveStation,
+#useStation_1,
+#useStation_2,
+#useStation_3,
+#useStation_4,
+#useStation_5,
+#pipeLength_1,
+#pipeDiameter_1,
+#pipeLength_2,
+#pipeDiameter_2,
+#pipeLength_3,
+#pipeDiameter_3,
+#pipeLength_4,
+#pipeDiameter_4,
+#pipeLength_5,
+#pipeDiameter_5,
+#pipeLength_6,
+#pipeDiameter_6,
+#pipeLength_7,
+#pipeDiameter_7,
+#pipeLength_8,
+#pipeDiameter_8,
+#pipeLength_9,
+#pipeDiameter_9,
+#pipeLength_10,
+#pipeDiameter_10,
+#pipeLength_11,
+#pipeDiameter_11,
+#pipeLength_12,
+#pipeDiameter_12,
+#pipeLength_13,
+#pipeDiameter_13 {
+    width: 70px;
+    height: 25px;
+    background-color: #696965;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+}
+
+#waterConsumption_1,
+#waterConsumption_2,
+#waterConsumption_3,
+#waterConsumption_4,
+#waterConsumption_5,#waterConsumption_6,#waterConsumption_7,#waterConsumption_8,#waterConsumption_9,#waterConsumption_10,#waterConsumption_11 {
+    color: red;
+}
+
+.width220 {
+    width: 220px;
+}
+
+.station {
+    position: relative;
+    top: 138px;
+    left: 625px;
+}
+
+.station>span,
+.useWater>span {
+    font-size: 16px;
+}
+
+.giveStation {
+    position: relative;
+    top: 682px;
+    left: 312px;
+}
+
+
+.useWater_1 {
+    position: relative;
+    top: 366px;
+    left: 62px;
+}
+
+.useWater_2 {
+    position: relative;
+    top: 353px;
+    left: 293px;
+}
+
+.useWater_3 {
+    position: relative;
+    top: 315px;
+    left: 618px;
+}
+
+.useWater_4 {
+    position: relative;
+    top: 290px;
+    left: 858px;
+}
+
+.useWater_5 {
+    position: relative;
+    top: 280px;
+    left: 1174px;
+}
+
+.waterConsumption_1 {
+    position: relative;
+    left: 1023px;
+    bottom: 60px;
+    font-size: 12px;
+}
+
+.waterConsumption_2 {
+
+    position: relative;
+    bottom: 70px;
+    left: 823px;
+    font-size: 12px;
+}
+
+.waterConsumption_3 {
+
+    position: relative;
+    bottom: 135px;
+    left: 557px;
+    font-size: 12px;
+}
+
+.waterConsumption_4 {
+    width: 100px;
+    position: relative;
+    bottom: 290px;
+    left: 410px;
+    font-size: 12px;
+}
+
+.waterConsumption_5 {
+    position: relative;
+    bottom: 206px;
+    left: 1060px;
+    font-size: 12px;
+}
+
+.waterConsumption_6 {
+    position: relative;
+    bottom: 123px;
+    left: 1050px;
+    font-size: 12px;
+}
+
+.waterConsumption_7 {
+    position: relative;
+    bottom: 126px;
+    left: 612px;
+    font-size: 12px;
+}
+
+.waterConsumption_8 {
+    position: relative;
+    bottom: 101px;
+    left: 612px;
+    font-size: 12px;
+}
+
+.waterConsumption_9 {
+    position: relative;
+    bottom: 425px;
+    left: 480px;
+    font-size: 12px;
+}
+.waterConsumption_10 {
+    position: relative;
+    bottom: 311px;
+    left: 260px;
+    font-size: 12px;
+}
+.waterConsumption_11 {
+    position: relative;
+    bottom: 300px;
+    left: 120px;
+    font-size: 12px;
+}
+.waterConsumption_12 {
+    position: relative;
+    bottom: 276px;
+    left: 1010px;
+    font-size: 12px;
+}
+.waterConsumption_13 {
+    position: relative;
+    bottom: 354px;
+    left: 612px;
+    font-size: 12px;
+}
+.flowImage {
+    width: 20px;
+}
+.controlBar {  
+  position: relative;
+  float: right;
+}
+.controlBar li {
+  float: left;
+  margin: 10px 10px 10px 0 ;
+  list-style-type: none;
+}
+.controlBar li input, .controlBar li button {
+  border-radius: 4px;
+  padding: 4px;
+}
+.nav-link{ width: 100px; padding:6px; border-radius: 5px; margin:0 5px; background: rgba(17, 47, 93, .85); color: #fff; text-transform: uppercase; } 
+.nav-link:hover, .nav-link.active{ background: #33b9ff; color: #ffffff; transition: all .2s ease; cursor: pointer; }
+
+#pipe_flow {
+    height: 690px;
+}

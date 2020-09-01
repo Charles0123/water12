@@ -1,0 +1,166 @@
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.main-box {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+  height: 100%;
+  
+    background-color: #164475;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-top: 5px;
+    -webkit-box-shadow: 0px 0px 2px 1px grey;
+    box-shadow: 0px 0px 2px 1px grey;
+    -webkit-transition: width 0.8s;
+    transition: width 0.8s;
+    -webkit-transition: left 1s;
+    transition: left 1s;
+}
+.center-box {
+  background-color: white;
+  height: auto;
+  margin: 15px;
+}
+.menu {
+  padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 15%;
+    height: 100%;
+    float: left;
+}  
+.menu-btn.active {
+  color: white;
+  background-color: #33b9ff;
+  -webkit-box-shadow: 0px 0px 2px 1px dodgerblue;
+  box-shadow: 0px 0px 2px 1px dodgerblue;
+  
+}
+.menu-btn {
+    width: 100%;
+    word-break: break-all;
+    height: 32px;
+    margin-bottom: 16px;
+    -webkit-box-shadow: 0px 0px 2px 1px grey;
+    box-shadow: 0px 0px 2px 1px grey;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #959595;
+    font-family: "DFHei Std";
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#container_ {
+  position: relative;
+  float: left;
+  width: 85%;
+/*  min-height: 800px;*/
+  padding-right: 0 !important;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+      cursor: pointer;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: auto;
+    padding: 16px;
+    /* margin-top: 40px; */
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    padding: 20% 10px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  
+}
+.row {
+/*  margin-top: 8px;*/
+  padding: 5px 15px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width:768px) {
+  .main-box {
+    position: relative;
+    top: 100px !important;
+  }
+}

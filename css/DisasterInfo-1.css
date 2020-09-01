@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700,900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../images/report-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #143e71;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mt {
+  margin-top: 8.5em;
+}
+.container-fluid {
+  width: 100%;
+  height: 600px;
+  margin: 1rem;
+  padding: 0;  
+}
+
+.tabs {
+  position: relative;
+  width: calc(100% - 1vw);
+  max-width: 1200px;
+  margin: 0 auto;
+  /* top: 2vh;
+  left: 1vw; */
+}
+.tabs .tab {
+  width: 100%;
+  margin-top: 50px;
+  position: absolute;
+  z-index: 1;
+}
+.tabs .tab + .tab {
+  z-index: 0;
+}
+.tabs .tab .tab-a {
+  position: absolute;
+  display: block;
+  top: -50px;
+  height: 50px;
+  line-height: 50px;
+  /* width: 100px; */
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  border: solid 1px #d2d4d3;
+  border-bottom: none;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #818284;
+  left: 0;
+  letter-spacing: 0.8px;
+  padding: 0 0.6em;
+}
+.tabs .tab-adk .tab-a,
+.no-script-tab .tab .tab-a {
+  border-bottom: solid 1px white;
+  color: #3366ff;
+  font-weight: bold;
+  background-color: #fff;
+}
+.tabs .tab-adk .tab-a:before,
+.no-script-tab .tab .tab-a:before {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #00bae5;
+  left: 0;
+}
+.tabs .tab .tab-content {
+  line-height: 25px;
+  padding: 1em 0.8em;
+  border: solid 1px #d2d4d3;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+  letter-spacing: 0.8px;
+  font-size: 14px;
+  font-weight: 400;
+  background: white;
+  margin-top: -1px;
+}
+.tabs .tab-adk .tab-content {
+  display: block;
+}
+
+/* tabs 微調 */
+/* .tabs .tab + .tab .tab-a {
+  border-left: none;
+} */
+
+/* 無障礙調整 */
+.no-script-tab .tab {
+  margin: 0;
+  margin-bottom: 1em;
+}
+.no-script-tab .tab .tab-a {
+  position: relative;
+  top: 0;
+}
+.no-script-tab .tab + .tab .tab-content {
+  display: block;
+}
+.no-script-tab .tab + .tab .tab-a {
+  border-left: solid 1px #d2d4d3;
+  left: 102px;
+}
+.no-script-tab .tab + .tab + .tab .tab-a {
+  left: 204px;
+}
+.no-script-tab .tab.focus {
+  z-index: 2;
+}
+
+@media (max-width: 805px) {
+  .tabs {
+    width: 90%;
+  }
+  .tabs .tab {
+    margin: 0;
+    margin-bottom: 1em;
+    position: relative;
+  }
+  .tabs .tab .tab-a {
+    position: relative;
+    top: 0;
+    border-bottom: solid 1px white;
+    color: #333333;
+    font-weight: bold;
+    left: 0 !important;
+  }
+  .tabs .tab .tab-content {
+    display: block;
+    margin-top: -1px;
+  }
+  .tabs .tab + .tab .tab-a {
+    border-left: solid 1px #d2d4d3;
+  }
+  .tabs .tab .tab-a:before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #00bae5;
+    left: 0;
+  }
+}
+
+table {
+  text-align: center;
+}

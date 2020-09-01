@@ -1,0 +1,347 @@
+.k-animation-container {
+  width: 200px !important;
+}
+
+/* kendo UI 行列配對各條件底色 N、>、<、>>、<< */
+.green {
+  background: #073469 !important;
+  color: white;
+}
+
+/*
+.green > td:nth-of-type(5) {
+  color: rgb(0, 255, 1) !important;
+}
+
+.yellow {
+  background: #073469 !important;
+  color: white;
+}
+
+.yellow > td:nth-of-type(5) {
+  color: rgb(253, 255, 0) !important;
+}
+
+.red {
+  background: #073469 !important;
+  color: white;
+}
+
+.red > td:nth-of-type(5) {
+  color: rgb(253, 0, 2) !important;
+}
+*/
+
+.white {
+  background: grey !important;
+  color: white;
+}
+.k-header {
+  color: white !important;
+  background-color: rgba(25, 120, 213, 1) !important;
+}
+
+.k-state-hover {
+  background-color: rgba(30, 144, 255, 1) !important;
+}
+
+.k-dropdowngrid-popup .k-item {
+  background-color: white;
+}
+
+/*
+.white > td:nth-of-type(5) {
+  color: white !important;
+}
+*/
+.k-grid-filter.k-state-active{
+        background-color: transparent !important;
+      }
+.table-over.k-grid.k-widget.k-display-block {
+  width: calc(100% - 8px) !important;
+  margin: 0 auto !important;
+/*  padding: 0 3px !important;*/
+  text-align: center !important;
+}
+
+.modal-table .tab-pane .table-top,
+.modal-table .table-over {
+  width: 100%;
+  float: left;
+}
+
+.modal-table .table-top {
+  padding: 10px;
+  background: #f0f5f6;
+  border-bottom: 1px solid #DDD;
+}
+
+.modal-table .table-over {
+  height: calc(100% - 72px);
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.modal-table .tab-pane .table-top > div {
+  float: left;
+}
+
+.modal-table .tab-pane .table-top > div:first-child {
+  width: calc(60% - 40px);
+  padding-right: 20px;
+}
+
+.modal-table .tab-pane .table-top > div:last-child {
+  width: 40px;
+}
+
+.modal-table .tab-pane .table-top > div:last-child a {
+  display: block;
+  background: #bbb;
+  border-radius: 5px;
+  text-align: center;
+  height: 31px;
+  line-height: 27px;
+  margin-top: 5px;
+}
+
+.modal-table .tab-pane .table-top > div:nth-child(2),
+.modal-table .tab-pane .table-top > div:nth-child(3) {
+  width: 20%;
+  padding-right: 20px;
+}
+
+.modal-table .tab-pane #grid {
+  width: 100%;
+  float: left;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.modal-table .tab-pane #grid th {}
+
+.modal-table {
+  position: absolute;
+  z-index: 318;
+  right: 20px;
+  left: 220px;
+  top: 130px;
+  bottom: 60px;
+  background: rgba(17, 47, 93, .85);
+  font-size: 14px;
+  color: #868794;
+  padding: 25px 25px 25px 60px;
+}
+
+.k-grid-content table tr:hover td {
+  background-color: grey !important;
+}
+
+@media only screen and (max-width: 850px) {
+  .marquee {
+    bottom: 0;
+  }
+
+  .modal-table {
+    left: 20px !important;
+    bottom: 0px !important;
+    top: 90px !important;
+  }
+
+  .tab-pane {
+    height: calc(100% - 37px) !important;
+    left: 20px !important;
+  }
+
+  .modal-table .tab-pane {
+    width: 100% !important;
+  }
+
+  .modal-table .tab-pane table {
+    height: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+
+  .iframe-table,
+  .modal-table {
+    top: 190px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /*
+      .iframe-table,
+      .modal-table{
+          top: 50px;
+          left: 20px;
+      }
+*/
+}
+
+@media only screen and (max-width: 767px) {
+
+  .iframe-table,
+  .modal-table {
+    bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .modal-table .table-top > div:first-child {
+    width: 100%;
+    float: left;
+    margin-right: 0;
+    padding-bottom: 5px;
+  }
+
+  .modal-table .table-top > div:nth-child(2) {
+    width: 100%;
+    float: left;
+  }
+
+  .modal-table .tab-pane .table-top > div:nth-child(2),
+  .modal-table .tab-pane .table-top > div:nth-child(3),
+  .modal-table .tab-pane .table-top > div:first-child {
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .modal-table {
+    padding: 0px;
+    width: 95%;
+    left: 0;
+  }
+
+  .modal-table .close {
+    /*
+    right: 0px;
+    top: -10px;
+*/
+  }
+
+  .modal-table .tab-pane table .th {
+    display: inline-block;
+    color: #fff;
+  }
+
+  .modal-table .tab-pane table tr td {
+    /*          display: block;*/
+    border-bottom: 0;
+    padding: 3px 5px;
+  }
+
+  .modal-table .tab-pane table tr td:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .modal-table .tab-pane .table-top > div:first-child {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .modal-table {
+    padding: 0px;
+    width: 98%;
+    left: 0;
+  }
+
+  .modal-table .tab-pane .table-top > div:nth-child(2),
+  .modal-table .tab-pane .table-top > div:nth-child(3) {
+    width: calc(50% - 20px);
+  }
+
+  .modal-table .table-over {
+    height: calc(100% - 130px);
+  }
+
+  .modal-table .tab-pane .k-grid-header {
+    padding-right: 0;
+  }
+}
+
+
+
+
+.tab-pane .k-grid-header {
+  padding-right: 0;
+}
+
+.modal-table .close {
+  width: 20px;
+  margin: 10px;
+  float: right;
+  text-align: right;
+  font-size: 36px;
+  color: #fff;
+  padding-bottom: 5px;
+  position: relative;
+  top: -23px;
+  right: -14px;
+}
+
+.modal-table .tab-pane {
+  background: #fff;
+  width: calc(100% - 250px);
+  float: right;
+  height: calc(100% - 37px);
+}
+
+.modal-table .table-top > div > div {
+  width: 100%;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  padding: 0 10px 0 0;
+  background: #fff;
+}
+
+.modal-table .table-top > div > div input[type=text] {
+  flex: 1;
+  font-size: 14px;
+}
+
+.modal-table .table-top > div > div input[type=submit] {
+  background: url(../images/arrow3.png);
+  width: 12px;
+  height: 12px;
+  text-indent: -9999px;
+}
+
+.modal-table .table-top select {
+  /*      background:url(../images/arrow3.png) right 10px center no-repeat #bbb;*/
+  width: 100%;
+  margin-top: 5px;
+  font-size: 14px;
+  padding: 2px;
+  color: #555;
+}
+
+.modal-table .tab-pane table th,
+.modal-table .tab-pane table .th {
+  color: #444;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.modal-table .tab-pane table th {
+  border-left: 1px solid #DDD;
+}
+
+.modal-table .tab-pane table .th {
+  /*    display: none;*/
+  padding: 0;
+}
+
+.modal-table .tab-pane table tr td {
+  /* background: #073469; */
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+  padding: 10px;
+  font-size: 14px;
+  /* color: #fff; */
+}

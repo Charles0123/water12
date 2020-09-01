@@ -1,0 +1,1570 @@
+var testpattern = 
+    {
+    "LAST_DATETIME": "2020-04-25T23:17:00",
+    "STATIONS": [
+        {
+            "STATION_ID": "隆恩街1350監控站",
+            "DISPLAY_NAME": "隆恩街1350監控站",
+            "LINK": null,
+            "STATION_TYPE": "監控站",
+            "IMAGE": null,
+            "X": 121.35681,
+            "Y": 24.94112,
+            "X_DELTA": 75.0,
+            "Y_DELTA": 0.0,
+            "X_DIR": "R",
+            "Y_DIR": "B"
+        },
+        {
+            "STATION_ID": "柑園街1750監控站",
+            "DISPLAY_NAME": "柑園街1750監控站",
+            "LINK": null,
+            "STATION_TYPE": "監控站",
+            "IMAGE": null,
+            "X": 121.3658972,
+            "Y": 24.94776667,
+            "X_DELTA": 30.0,
+            "Y_DELTA": 30.0,
+            "X_DIR": "L",
+            "Y_DIR": "B"
+        },
+        {
+            "STATION_ID": "媽祖田1350監測站",
+            "DISPLAY_NAME": "媽祖田1350監測站",
+            "LINK": null,
+            "STATION_TYPE": "監測站",
+            "IMAGE": "箭頭-B-11.png",
+            "X": 121.40957,
+            "Y": 24.95045,
+            "X_DELTA": 45.0,
+            "Y_DELTA": 105.0,
+            "X_DIR": "L",
+            "Y_DIR": "B"
+        },
+        {
+            "STATION_ID": "佳園路1350監控站",
+            "DISPLAY_NAME": "佳園路1350監控站",
+            "LINK": null,
+            "STATION_TYPE": "監控站",
+            "IMAGE": null,
+            "X": 121.4065333,
+            "Y": 24.96197778,
+            "X_DELTA": 30.0,
+            "Y_DELTA": 0.0,
+            "X_DIR": "R",
+            "Y_DIR": "B"
+        },
+        {
+            "STATION_ID": "成福加壓站",
+            "DISPLAY_NAME": "成福加壓站",
+            "LINK": null,
+            "STATION_TYPE": "加壓站",
+            "IMAGE": "箭頭-B-14.png",
+            "X": 121.4062417,
+            "Y": 24.93308611,
+            "X_DELTA": 0.0,
+            "Y_DELTA": 45.0,
+            "X_DIR": "R",
+            "Y_DIR": "B"
+        },
+        {
+            "STATION_ID": "尖山加壓站",
+            "DISPLAY_NAME": "尖山加壓站",
+            "LINK": null,
+            "STATION_TYPE": "加壓站",
+            "IMAGE": "箭頭-B-07.png",
+            "X": 121.33435,
+            "Y": 24.95221,
+            "X_DELTA": 0.0,
+            "Y_DELTA": -65.0,
+            "X_DIR": "R",
+            "Y_DIR": "T"
+        },
+        {
+            "STATION_ID": "板南加壓站",
+            "DISPLAY_NAME": "板南加壓站",
+            "LINK": null,
+            "STATION_TYPE": "加壓站",
+            "IMAGE": "箭頭-B-11.png",
+            "X": 121.35545,
+            "Y": 24.93863,
+            "X_DELTA": 0.0,
+            "Y_DELTA": -5.0,
+            "X_DIR": "R",
+            "Y_DIR": "T"
+        }
+    ],
+    "DATA": [
+        {
+            "STATION_ID": "隆恩街1350監控站",
+            "DISPLAY_NAME": "隆恩街1350監控站",
+            "ITEMS": [
+                {
+                    "ITEM_NAME": "開度",
+                    "MEASURE": "開度",
+                    "UNIT": "%",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "50",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "N",
+                    "USE_STDEV": "0",
+                    "H_ALARM": null,
+                    "HH_ALARM": null,
+                    "L_ALARM": null,
+                    "LL_ALARM": null,
+                    "PM_TYPE": null,
+                    "FM_TYPE": null
+                }
+            ]
+        },
+        {
+            "STATION_ID": "柑園街1750監控站",
+            "DISPLAY_NAME": "柑園街1750監控站",
+            "ITEMS": [
+                {
+                    "ITEM_NAME": "開度",
+                    "MEASURE": "開度",
+                    "UNIT": "%",
+                    "DATE_TIME": null,
+                    "VALUE": "",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "<<",
+                    "USE_STDEV": "0",
+                    "H_ALARM": null,
+                    "HH_ALARM": null,
+                    "L_ALARM": null,
+                    "LL_ALARM": null,
+                    "PM_TYPE": null,
+                    "FM_TYPE": null
+                }
+            ]
+        },
+        {
+            "STATION_ID": "媽祖田1350監測站",
+            "DISPLAY_NAME": "媽祖田1350監測站",
+            "ITEMS": [
+                {
+                    "ITEM_NAME": "管壓",
+                    "MEASURE": "壓力",
+                    "UNIT": "kgf/cm2",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "1.13",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "<<",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 1.339,
+                    "HH_ALARM": 1.459,
+                    "L_ALARM": 0.863,
+                    "LL_ALARM": 0.743,
+                    "PM_TYPE": "板新幹管",
+                    "FM_TYPE": null
+                },
+                {
+                    "ITEM_NAME": "瞬間流量",
+                    "MEASURE": "瞬間流量",
+                    "UNIT": "CMD",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "2,399",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": ">>",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 198226.931,
+                    "HH_ALARM": 281984.622,
+                    "L_ALARM": -136803.835,
+                    "LL_ALARM": -220561.526,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "昨日瞬間流量",
+                    "MEASURE": "瞬間流量",
+                    "UNIT": "CMD",
+                    "DATE_TIME": "2020-04-25T23:17:00",
+                    "VALUE": "0",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "N",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 9026.4,
+                    "HH_ALARM": 12751.783,
+                    "L_ALARM": -5875.134,
+                    "LL_ALARM": -9600.517,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "今日累積流量",
+                    "MEASURE": "累積流量",
+                    "UNIT": "M3",
+                    "DATE_TIME": "2020-04-25T23:17:00",
+                    "VALUE": "-88,867,290",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "N",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 41034667.986,
+                    "HH_ALARM": 61550264.683,
+                    "L_ALARM": -41027718.802,
+                    "LL_ALARM": -61543315.499,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "昨日累積流量",
+                    "MEASURE": "累積流量",
+                    "UNIT": "M3",
+                    "DATE_TIME": "2020-04-25T23:17:00",
+                    "VALUE": "0",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "N",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 44652542.392,
+                    "HH_ALARM": 67561338.358,
+                    "L_ALARM": -46982641.471,
+                    "LL_ALARM": -69891437.437,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "昨日總累積流量",
+                    "MEASURE": "累積流量",
+                    "UNIT": "M3",
+                    "DATE_TIME": "2020-04-25T23:17:00",
+                    "VALUE": "0",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "N",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 44652547.44,
+                    "HH_ALARM": 67561344.113,
+                    "L_ALARM": -46982639.255,
+                    "LL_ALARM": -69891435.929,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "餘氯",
+                    "MEASURE": "餘氯",
+                    "UNIT": "PPM",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "0.6",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "N",
+                    "USE_STDEV": "0",
+                    "H_ALARM": null,
+                    "HH_ALARM": null,
+                    "L_ALARM": null,
+                    "LL_ALARM": null,
+                    "PM_TYPE": null,
+                    "FM_TYPE": null
+                },
+                {
+                    "ITEM_NAME": "濁度",
+                    "MEASURE": "濁度",
+                    "UNIT": "NTU",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "0.1",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "N",
+                    "USE_STDEV": "0",
+                    "H_ALARM": null,
+                    "HH_ALARM": null,
+                    "L_ALARM": null,
+                    "LL_ALARM": null,
+                    "PM_TYPE": null,
+                    "FM_TYPE": null
+                },
+                {
+                    "ITEM_NAME": "pH",
+                    "MEASURE": "pH",
+                    "UNIT": "",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "7.3",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "N",
+                    "USE_STDEV": "0",
+                    "H_ALARM": null,
+                    "HH_ALARM": null,
+                    "L_ALARM": null,
+                    "LL_ALARM": null,
+                    "PM_TYPE": null,
+                    "FM_TYPE": null
+                },
+                {
+                    "ITEM_NAME": "溫度",
+                    "MEASURE": "溫度",
+                    "UNIT": "°C",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "18.6",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "N",
+                    "USE_STDEV": "0",
+                    "H_ALARM": null,
+                    "HH_ALARM": null,
+                    "L_ALARM": null,
+                    "LL_ALARM": null,
+                    "PM_TYPE": null,
+                    "FM_TYPE": null
+                },
+                {
+                    "ITEM_NAME": "導電度",
+                    "MEASURE": "導電度",
+                    "UNIT": "μS/cm",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "100",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "N",
+                    "USE_STDEV": "0",
+                    "H_ALARM": null,
+                    "HH_ALARM": null,
+                    "L_ALARM": null,
+                    "LL_ALARM": null,
+                    "PM_TYPE": null,
+                    "FM_TYPE": null
+                }
+            ]
+        },
+        {
+            "STATION_ID": "佳園路1350監控站",
+            "DISPLAY_NAME": "佳園路1350監控站",
+            "ITEMS": [
+                {
+                    "ITEM_NAME": "開度",
+                    "MEASURE": "開度",
+                    "UNIT": "%",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "80",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": ">",
+                    "USE_STDEV": "0",
+                    "H_ALARM": null,
+                    "HH_ALARM": null,
+                    "L_ALARM": null,
+                    "LL_ALARM": null,
+                    "PM_TYPE": null,
+                    "FM_TYPE": null
+                }
+            ]
+        },
+        {
+            "STATION_ID": "成福加壓站",
+            "DISPLAY_NAME": "成福加壓站",
+            "ITEMS": [
+                {
+                    "ITEM_NAME": "進水壓力",
+                    "MEASURE": "壓力",
+                    "UNIT": "kgf/cm2",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "0.68",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "<",
+                    "USE_STDEV": "0",
+                    "H_ALARM": 5.0,
+                    "HH_ALARM": 6.0,
+                    "L_ALARM": 4.0,
+                    "LL_ALARM": null,
+                    "PM_TYPE": "一般",
+                    "FM_TYPE": null
+                },
+                {
+                    "ITEM_NAME": "出水壓力",
+                    "MEASURE": "壓力",
+                    "UNIT": "kgf/cm2",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "6.76",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "<",
+                    "USE_STDEV": "0",
+                    "H_ALARM": 5.0,
+                    "HH_ALARM": 6.0,
+                    "L_ALARM": 4.0,
+                    "LL_ALARM": null,
+                    "PM_TYPE": "一般",
+                    "FM_TYPE": null
+                },
+                {
+                    "ITEM_NAME": "瞬間流量",
+                    "MEASURE": "瞬間流量",
+                    "UNIT": "CMD",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "7,677",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "<",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 10757.148,
+                    "HH_ALARM": 14571.912,
+                    "L_ALARM": -4501.906,
+                    "LL_ALARM": -8316.67,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "昨日瞬間流量",
+                    "MEASURE": "瞬間流量",
+                    "UNIT": "CMD",
+                    "DATE_TIME": "2020-04-25T23:17:00",
+                    "VALUE": "7,735",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "<",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 11424.285,
+                    "HH_ALARM": 13572.452,
+                    "L_ALARM": 2831.617,
+                    "LL_ALARM": 683.45,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "水位",
+                    "MEASURE": "水位",
+                    "UNIT": "m",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "0.00",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "<",
+                    "USE_STDEV": "0",
+                    "H_ALARM": null,
+                    "HH_ALARM": null,
+                    "L_ALARM": null,
+                    "LL_ALARM": null,
+                    "PM_TYPE": null,
+                    "FM_TYPE": null
+                }
+            ]
+        },
+        {
+            "STATION_ID": "尖山加壓站",
+            "DISPLAY_NAME": "尖山加壓站",
+            "ITEMS": [
+                {
+                    "ITEM_NAME": "600Φ出水壓力",
+                    "MEASURE": "壓力",
+                    "UNIT": "kgf/cm2",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "3.99",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "0",
+                    "H_ALARM": null,
+                    "HH_ALARM": null,
+                    "L_ALARM": null,
+                    "LL_ALARM": null,
+                    "PM_TYPE": "板新幹管",
+                    "FM_TYPE": null
+                },
+                {
+                    "ITEM_NAME": "600Φ瞬間流量",
+                    "MEASURE": "瞬間流量",
+                    "UNIT": "CMD",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "12,360",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 14354.097,
+                    "HH_ALARM": 15706.417,
+                    "L_ALARM": 8944.815,
+                    "LL_ALARM": 7592.494,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "600Φ昨日瞬間流量",
+                    "MEASURE": "瞬間流量",
+                    "UNIT": "CMD",
+                    "DATE_TIME": "2020-04-25T23:17:00",
+                    "VALUE": "22,127",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 27374.03,
+                    "HH_ALARM": 29933.712,
+                    "L_ALARM": 17135.301,
+                    "LL_ALARM": 14575.619,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "900Φ瞬間流量",
+                    "MEASURE": "瞬間流量",
+                    "UNIT": "CMD",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "94,536",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 143969.373,
+                    "HH_ALARM": 159832.489,
+                    "L_ALARM": 80516.906,
+                    "LL_ALARM": 64653.789,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "900Φ昨日瞬間流量",
+                    "MEASURE": "瞬間流量",
+                    "UNIT": "CMD",
+                    "DATE_TIME": "2020-04-25T23:17:00",
+                    "VALUE": "133,560",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 146025.55,
+                    "HH_ALARM": 160608.188,
+                    "L_ALARM": 87694.998,
+                    "LL_ALARM": 73112.36,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "900Φ今日累積流量",
+                    "MEASURE": "累積流量",
+                    "UNIT": "M3",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "14,300",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 25353.761,
+                    "HH_ALARM": 27905.515,
+                    "L_ALARM": 15146.745,
+                    "LL_ALARM": 12594.991,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "900Φ昨日累積流量",
+                    "MEASURE": "累積流量",
+                    "UNIT": "M3",
+                    "DATE_TIME": "2020-04-25T23:17:00",
+                    "VALUE": "110,930",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 121881.262,
+                    "HH_ALARM": 127766.681,
+                    "L_ALARM": 98339.583,
+                    "LL_ALARM": 92454.164,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "900Φ昨日總累積流量",
+                    "MEASURE": "累積流量",
+                    "UNIT": "M3",
+                    "DATE_TIME": "2020-04-25T23:17:00",
+                    "VALUE": "115,080",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 125938.079,
+                    "HH_ALARM": 132001.203,
+                    "L_ALARM": 101685.583,
+                    "LL_ALARM": 95622.459,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "水位",
+                    "MEASURE": "水位",
+                    "UNIT": "m",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "3.53",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "0",
+                    "H_ALARM": null,
+                    "HH_ALARM": null,
+                    "L_ALARM": null,
+                    "LL_ALARM": null,
+                    "PM_TYPE": null,
+                    "FM_TYPE": null
+                },
+                {
+                    "ITEM_NAME": "配水池水位",
+                    "MEASURE": "水位",
+                    "UNIT": "m",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "2.27",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 2.554,
+                    "HH_ALARM": 2.683,
+                    "L_ALARM": 2.034,
+                    "LL_ALARM": 1.904,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "餘氯",
+                    "MEASURE": "餘氯",
+                    "UNIT": "PPM",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "0.4",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "0",
+                    "H_ALARM": null,
+                    "HH_ALARM": null,
+                    "L_ALARM": null,
+                    "LL_ALARM": null,
+                    "PM_TYPE": null,
+                    "FM_TYPE": null
+                },
+                {
+                    "ITEM_NAME": "濁度",
+                    "MEASURE": "濁度",
+                    "UNIT": "NTU",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "5.1",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "0",
+                    "H_ALARM": null,
+                    "HH_ALARM": null,
+                    "L_ALARM": null,
+                    "LL_ALARM": null,
+                    "PM_TYPE": null,
+                    "FM_TYPE": null
+                },
+                {
+                    "ITEM_NAME": "pH",
+                    "MEASURE": "pH",
+                    "UNIT": "",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "0.1",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "0",
+                    "H_ALARM": null,
+                    "HH_ALARM": null,
+                    "L_ALARM": null,
+                    "LL_ALARM": null,
+                    "PM_TYPE": null,
+                    "FM_TYPE": null
+                },
+                {
+                    "ITEM_NAME": "溫度",
+                    "MEASURE": "溫度",
+                    "UNIT": "°C",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "18.5",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "0",
+                    "H_ALARM": null,
+                    "HH_ALARM": null,
+                    "L_ALARM": null,
+                    "LL_ALARM": null,
+                    "PM_TYPE": null,
+                    "FM_TYPE": null
+                },
+                {
+                    "ITEM_NAME": "導電度",
+                    "MEASURE": "導電度",
+                    "UNIT": "μS/cm",
+                    "DATE_TIME": "2020-04-25T04:18:00",
+                    "VALUE": "78",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "0",
+                    "H_ALARM": null,
+                    "HH_ALARM": null,
+                    "L_ALARM": null,
+                    "LL_ALARM": null,
+                    "PM_TYPE": null,
+                    "FM_TYPE": null
+                }
+            ]
+        },
+        {
+            "STATION_ID": "板南加壓站",
+            "DISPLAY_NAME": "板南加壓站",
+            "ITEMS": [
+                {
+                    "ITEM_NAME": "瞬間流量",
+                    "MEASURE": "瞬間流量",
+                    "UNIT": "CMD",
+                    "DATE_TIME": "2020-04-25T23:17:00",
+                    "VALUE": "0",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 32034.206,
+                    "HH_ALARM": 47080.101,
+                    "L_ALARM": -28149.373,
+                    "LL_ALARM": -43195.268,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "昨日瞬間流量",
+                    "MEASURE": "瞬間流量",
+                    "UNIT": "CMD",
+                    "DATE_TIME": "2020-04-25T23:17:00",
+                    "VALUE": "0",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 32034.206,
+                    "HH_ALARM": 47080.101,
+                    "L_ALARM": -28149.373,
+                    "LL_ALARM": -43195.268,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "今日累積流量",
+                    "MEASURE": "累積流量",
+                    "UNIT": "M3",
+                    "DATE_TIME": "2020-04-25T23:17:00",
+                    "VALUE": "0",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 79344.306,
+                    "HH_ALARM": 110467.119,
+                    "L_ALARM": -45146.947,
+                    "LL_ALARM": -76269.761,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "昨日累積流量",
+                    "MEASURE": "累積流量",
+                    "UNIT": "M3",
+                    "DATE_TIME": "2020-04-23T07:30:00",
+                    "VALUE": "0",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 32615.26,
+                    "HH_ALARM": 45753.922,
+                    "L_ALARM": -19939.387,
+                    "LL_ALARM": -33078.049,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                },
+                {
+                    "ITEM_NAME": "昨日總累積流量",
+                    "MEASURE": "累積流量",
+                    "UNIT": "M3",
+                    "DATE_TIME": "2020-04-18T23:59:00",
+                    "VALUE": "0",
+                    "VALUE_YESTERDAY": null,
+                    "FLAG": "?",
+                    "USE_STDEV": "1",
+                    "H_ALARM": 76819.973,
+                    "HH_ALARM": 107013.613,
+                    "L_ALARM": -43954.588,
+                    "LL_ALARM": -74148.228,
+                    "PM_TYPE": null,
+                    "FM_TYPE": "一般"
+                }
+            ]
+        }
+    ]
+};
+//開啟資訊是窗後icon的偏移位子
+var deviation = {
+    "X": 10,
+    "Y": 10
+};
+var controlImg ={
+  "監控站-紅": "./images/監控站-紅-4055.png",
+  "監控站-黃": "./images/監控站-黃-4055.png",
+  "監控站-綠": "./images/監控站-綠-4055.png",
+  "監控站-灰": "./images/監控站-灰-4055.png"
+};
+var flagCit = {
+  "<<": "紅",
+  ">>": "紅",
+  "<": "黃",
+  ">": "黃",
+  "N": "綠",
+  "?": "灰"
+};
+var stationType_Animated = {
+    "加壓站-灰-箭頭-B-01-6060.gif": "./images/加壓站-灰-箭頭-B-01-6060.gif",
+    "加壓站-灰-箭頭-B-02-6060.gif": "./images/加壓站-灰-箭頭-B-02-6060.gif",
+    "加壓站-灰-箭頭-B-03-6060.gif": "./images/加壓站-灰-箭頭-B-03-6060.gif",
+    "加壓站-灰-箭頭-B-04-6060.gif": "./images/加壓站-灰-箭頭-B-04-6060.gif",
+    "加壓站-灰-箭頭-B-05-6060.gif": "./images/加壓站-灰-箭頭-B-05-6060.gif",
+    "加壓站-灰-箭頭-B-06-6060.gif": "./images/加壓站-灰-箭頭-B-06-6060.gif",
+    "加壓站-灰-箭頭-B-07-6060.gif": "./images/加壓站-灰-箭頭-B-07-6060.gif",
+    "加壓站-灰-箭頭-B-08-6060.gif": "./images/加壓站-灰-箭頭-B-08-6060.gif",
+    "加壓站-灰-箭頭-B-09-6060.gif": "./images/加壓站-灰-箭頭-B-09-6060.gif",
+    "加壓站-灰-箭頭-B-10-6060.gif": "./images/加壓站-灰-箭頭-B-10-6060.gif",
+    "加壓站-灰-箭頭-B-11-6060.gif": "./images/加壓站-灰-箭頭-B-11-6060.gif",
+    "加壓站-灰-箭頭-B-12-6060.gif": "./images/加壓站-灰-箭頭-B-12-6060.gif",
+    "加壓站-灰-箭頭-B-13-6060.gif": "./images/加壓站-灰-箭頭-B-13-6060.gif",
+    "加壓站-灰-箭頭-B-14-6060.gif": "./images/加壓站-灰-箭頭-B-14-6060.gif",
+    "加壓站-灰-箭頭-B-15-6060.gif": "./images/加壓站-灰-箭頭-B-15-6060.gif",
+    "加壓站-灰-箭頭-B-16-6060.gif": "./images/加壓站-灰-箭頭-B-16-6060.gif",
+    "監控站-灰-箭頭-B-01-6060.gif": "./images/監控站-灰-箭頭-B-01-6060.gif",
+    "監控站-灰-箭頭-B-02-6060.gif": "./images/監控站-灰-箭頭-B-02-6060.gif",
+    "監控站-灰-箭頭-B-03-6060.gif": "./images/監控站-灰-箭頭-B-03-6060.gif",
+    "監控站-灰-箭頭-B-04-6060.gif": "./images/監控站-灰-箭頭-B-04-6060.gif",
+    "監控站-灰-箭頭-B-05-6060.gif": "./images/監控站-灰-箭頭-B-05-6060.gif",
+    "監控站-灰-箭頭-B-06-6060.gif": "./images/監控站-灰-箭頭-B-06-6060.gif",
+    "監控站-灰-箭頭-B-07-6060.gif": "./images/監控站-灰-箭頭-B-07-6060.gif",
+    "監控站-灰-箭頭-B-08-6060.gif": "./images/監控站-灰-箭頭-B-08-6060.gif",
+    "監控站-灰-箭頭-B-09-6060.gif": "./images/監控站-灰-箭頭-B-09-6060.gif",
+    "監控站-灰-箭頭-B-10-6060.gif": "./images/監控站-灰-箭頭-B-10-6060.gif",
+    "監控站-灰-箭頭-B-11-6060.gif": "./images/監控站-灰-箭頭-B-11-6060.gif",
+    "監控站-灰-箭頭-B-12-6060.gif": "./images/監控站-灰-箭頭-B-12-6060.gif",
+    "監控站-灰-箭頭-B-13-6060.gif": "./images/監控站-灰-箭頭-B-13-6060.gif",
+    "監控站-灰-箭頭-B-14-6060.gif": "./images/監控站-灰-箭頭-B-14-6060.gif",
+    "監控站-灰-箭頭-B-15-6060.gif": "./images/監控站-灰-箭頭-B-15-6060.gif",
+    "監控站-灰-箭頭-B-16-6060.gif": "./images/監控站-灰-箭頭-B-16-6060.gif",
+    "監測站-灰-箭頭-B-01-6060.gif": "./images/監測站-灰-箭頭-B-01-6060.gif",
+    "監測站-灰-箭頭-B-02-6060.gif": "./images/監測站-灰-箭頭-B-02-6060.gif",
+    "監測站-灰-箭頭-B-03-6060.gif": "./images/監測站-灰-箭頭-B-03-6060.gif",
+    "監測站-灰-箭頭-B-04-6060.gif": "./images/監測站-灰-箭頭-B-04-6060.gif",
+    "監測站-灰-箭頭-B-05-6060.gif": "./images/監測站-灰-箭頭-B-05-6060.gif",
+    "監測站-灰-箭頭-B-06-6060.gif": "./images/監測站-灰-箭頭-B-06-6060.gif",
+    "監測站-灰-箭頭-B-07-6060.gif": "./images/監測站-灰-箭頭-B-07-6060.gif",
+    "監測站-灰-箭頭-B-08-6060.gif": "./images/監測站-灰-箭頭-B-08-6060.gif",
+    "監測站-灰-箭頭-B-09-6060.gif": "./images/監測站-灰-箭頭-B-09-6060.gif",
+    "監測站-灰-箭頭-B-10-6060.gif": "./images/監測站-灰-箭頭-B-10-6060.gif",
+    "監測站-灰-箭頭-B-11-6060.gif": "./images/監測站-灰-箭頭-B-11-6060.gif",
+    "監測站-灰-箭頭-B-12-6060.gif": "./images/監測站-灰-箭頭-B-12-6060.gif",
+    "監測站-灰-箭頭-B-13-6060.gif": "./images/監測站-灰-箭頭-B-13-6060.gif",
+    "監測站-灰-箭頭-B-14-6060.gif": "./images/監測站-灰-箭頭-B-14-6060.gif",
+    "監測站-灰-箭頭-B-15-6060.gif": "./images/監測站-灰-箭頭-B-15-6060.gif",
+    "監測站-灰-箭頭-B-16-6060.gif": "./images/監測站-灰-箭頭-B-16-6060.gif",
+    "加壓站-灰-箭頭-R-01-6060.gif": "./images/加壓站-灰-箭頭-R-01-6060.gif",
+    "加壓站-灰-箭頭-R-02-6060.gif": "./images/加壓站-灰-箭頭-R-02-6060.gif",
+    "加壓站-灰-箭頭-R-03-6060.gif": "./images/加壓站-灰-箭頭-R-03-6060.gif",
+    "加壓站-灰-箭頭-R-04-6060.gif": "./images/加壓站-灰-箭頭-R-04-6060.gif",
+    "加壓站-灰-箭頭-R-05-6060.gif": "./images/加壓站-灰-箭頭-R-05-6060.gif",
+    "加壓站-灰-箭頭-R-06-6060.gif": "./images/加壓站-灰-箭頭-R-06-6060.gif",
+    "加壓站-灰-箭頭-R-07-6060.gif": "./images/加壓站-灰-箭頭-R-07-6060.gif",
+    "加壓站-灰-箭頭-R-08-6060.gif": "./images/加壓站-灰-箭頭-R-08-6060.gif",
+    "加壓站-灰-箭頭-R-09-6060.gif": "./images/加壓站-灰-箭頭-R-09-6060.gif",
+    "加壓站-灰-箭頭-R-10-6060.gif": "./images/加壓站-灰-箭頭-R-10-6060.gif",
+    "加壓站-灰-箭頭-R-11-6060.gif": "./images/加壓站-灰-箭頭-R-11-6060.gif",
+    "加壓站-灰-箭頭-R-12-6060.gif": "./images/加壓站-灰-箭頭-R-12-6060.gif",
+    "加壓站-灰-箭頭-R-13-6060.gif": "./images/加壓站-灰-箭頭-R-13-6060.gif",
+    "加壓站-灰-箭頭-R-14-6060.gif": "./images/加壓站-灰-箭頭-R-14-6060.gif",
+    "加壓站-灰-箭頭-R-15-6060.gif": "./images/加壓站-灰-箭頭-R-15-6060.gif",
+    "加壓站-灰-箭頭-R-16-6060.gif": "./images/加壓站-灰-箭頭-R-16-6060.gif",
+    "監控站-灰-箭頭-R-01-6060.gif": "./images/監控站-灰-箭頭-R-01-6060.gif",
+    "監控站-灰-箭頭-R-02-6060.gif": "./images/監控站-灰-箭頭-R-02-6060.gif",
+    "監控站-灰-箭頭-R-03-6060.gif": "./images/監控站-灰-箭頭-R-03-6060.gif",
+    "監控站-灰-箭頭-R-04-6060.gif": "./images/監控站-灰-箭頭-R-04-6060.gif",
+    "監控站-灰-箭頭-R-05-6060.gif": "./images/監控站-灰-箭頭-R-05-6060.gif",
+    "監控站-灰-箭頭-R-06-6060.gif": "./images/監控站-灰-箭頭-R-06-6060.gif",
+    "監控站-灰-箭頭-R-07-6060.gif": "./images/監控站-灰-箭頭-R-07-6060.gif",
+    "監控站-灰-箭頭-R-08-6060.gif": "./images/監控站-灰-箭頭-R-08-6060.gif",
+    "監控站-灰-箭頭-R-09-6060.gif": "./images/監控站-灰-箭頭-R-09-6060.gif",
+    "監控站-灰-箭頭-R-10-6060.gif": "./images/監控站-灰-箭頭-R-10-6060.gif",
+    "監控站-灰-箭頭-R-11-6060.gif": "./images/監控站-灰-箭頭-R-11-6060.gif",
+    "監控站-灰-箭頭-R-12-6060.gif": "./images/監控站-灰-箭頭-R-12-6060.gif",
+    "監控站-灰-箭頭-R-13-6060.gif": "./images/監控站-灰-箭頭-R-13-6060.gif",
+    "監控站-灰-箭頭-R-14-6060.gif": "./images/監控站-灰-箭頭-R-14-6060.gif",
+    "監控站-灰-箭頭-R-15-6060.gif": "./images/監控站-灰-箭頭-R-15-6060.gif",
+    "監控站-灰-箭頭-R-16-6060.gif": "./images/監控站-灰-箭頭-R-16-6060.gif",
+    "監測站-灰-箭頭-R-01-6060.gif": "./images/監測站-灰-箭頭-R-01-6060.gif",
+    "監測站-灰-箭頭-R-02-6060.gif": "./images/監測站-灰-箭頭-R-02-6060.gif",
+    "監測站-灰-箭頭-R-03-6060.gif": "./images/監測站-灰-箭頭-R-03-6060.gif",
+    "監測站-灰-箭頭-R-04-6060.gif": "./images/監測站-灰-箭頭-R-04-6060.gif",
+    "監測站-灰-箭頭-R-05-6060.gif": "./images/監測站-灰-箭頭-R-05-6060.gif",
+    "監測站-灰-箭頭-R-06-6060.gif": "./images/監測站-灰-箭頭-R-06-6060.gif",
+    "監測站-灰-箭頭-R-07-6060.gif": "./images/監測站-灰-箭頭-R-07-6060.gif",
+    "監測站-灰-箭頭-R-08-6060.gif": "./images/監測站-灰-箭頭-R-08-6060.gif",
+    "監測站-灰-箭頭-R-09-6060.gif": "./images/監測站-灰-箭頭-R-09-6060.gif",
+    "監測站-灰-箭頭-R-10-6060.gif": "./images/監測站-灰-箭頭-R-10-6060.gif",
+    "監測站-灰-箭頭-R-11-6060.gif": "./images/監測站-灰-箭頭-R-11-6060.gif",
+    "監測站-灰-箭頭-R-12-6060.gif": "./images/監測站-灰-箭頭-R-12-6060.gif",
+    "監測站-灰-箭頭-R-13-6060.gif": "./images/監測站-灰-箭頭-R-13-6060.gif",
+    "監測站-灰-箭頭-R-14-6060.gif": "./images/監測站-灰-箭頭-R-14-6060.gif",
+    "監測站-灰-箭頭-R-15-6060.gif": "./images/監測站-灰-箭頭-R-15-6060.gif",
+    "監測站-灰-箭頭-R-16-6060.gif": "./images/監測站-灰-箭頭-R-16-6060.gif",
+
+    "加壓站-紅-箭頭-B-01-6060.gif": "./images/加壓站-紅-箭頭-B-01-6060.gif",
+    "加壓站-紅-箭頭-B-02-6060.gif": "./images/加壓站-紅-箭頭-B-02-6060.gif",
+    "加壓站-紅-箭頭-B-03-6060.gif": "./images/加壓站-紅-箭頭-B-03-6060.gif",
+    "加壓站-紅-箭頭-B-04-6060.gif": "./images/加壓站-紅-箭頭-B-04-6060.gif",
+    "加壓站-紅-箭頭-B-05-6060.gif": "./images/加壓站-紅-箭頭-B-05-6060.gif",
+    "加壓站-紅-箭頭-B-06-6060.gif": "./images/加壓站-紅-箭頭-B-06-6060.gif",
+    "加壓站-紅-箭頭-B-07-6060.gif": "./images/加壓站-紅-箭頭-B-07-6060.gif",
+    "加壓站-紅-箭頭-B-08-6060.gif": "./images/加壓站-紅-箭頭-B-08-6060.gif",
+    "加壓站-紅-箭頭-B-09-6060.gif": "./images/加壓站-紅-箭頭-B-09-6060.gif",
+    "加壓站-紅-箭頭-B-10-6060.gif": "./images/加壓站-紅-箭頭-B-10-6060.gif",
+    "加壓站-紅-箭頭-B-11-6060.gif": "./images/加壓站-紅-箭頭-B-11-6060.gif",
+    "加壓站-紅-箭頭-B-12-6060.gif": "./images/加壓站-紅-箭頭-B-12-6060.gif",
+    "加壓站-紅-箭頭-B-13-6060.gif": "./images/加壓站-紅-箭頭-B-13-6060.gif",
+    "加壓站-紅-箭頭-B-14-6060.gif": "./images/加壓站-紅-箭頭-B-14-6060.gif",
+    "加壓站-紅-箭頭-B-15-6060.gif": "./images/加壓站-紅-箭頭-B-15-6060.gif",
+    "加壓站-紅-箭頭-B-16-6060.gif": "./images/加壓站-紅-箭頭-B-16-6060.gif",
+    "監控站-紅-箭頭-B-01-6060.gif": "./images/監控站-紅-箭頭-B-01-6060.gif",
+    "監控站-紅-箭頭-B-02-6060.gif": "./images/監控站-紅-箭頭-B-02-6060.gif",
+    "監控站-紅-箭頭-B-03-6060.gif": "./images/監控站-紅-箭頭-B-03-6060.gif",
+    "監控站-紅-箭頭-B-04-6060.gif": "./images/監控站-紅-箭頭-B-04-6060.gif",
+    "監控站-紅-箭頭-B-05-6060.gif": "./images/監控站-紅-箭頭-B-05-6060.gif",
+    "監控站-紅-箭頭-B-06-6060.gif": "./images/監控站-紅-箭頭-B-06-6060.gif",
+    "監控站-紅-箭頭-B-07-6060.gif": "./images/監控站-紅-箭頭-B-07-6060.gif",
+    "監控站-紅-箭頭-B-08-6060.gif": "./images/監控站-紅-箭頭-B-08-6060.gif",
+    "監控站-紅-箭頭-B-09-6060.gif": "./images/監控站-紅-箭頭-B-09-6060.gif",
+    "監控站-紅-箭頭-B-10-6060.gif": "./images/監控站-紅-箭頭-B-10-6060.gif",
+    "監控站-紅-箭頭-B-11-6060.gif": "./images/監控站-紅-箭頭-B-11-6060.gif",
+    "監控站-紅-箭頭-B-12-6060.gif": "./images/監控站-紅-箭頭-B-12-6060.gif",
+    "監控站-紅-箭頭-B-13-6060.gif": "./images/監控站-紅-箭頭-B-13-6060.gif",
+    "監控站-紅-箭頭-B-14-6060.gif": "./images/監控站-紅-箭頭-B-14-6060.gif",
+    "監控站-紅-箭頭-B-15-6060.gif": "./images/監控站-紅-箭頭-B-15-6060.gif",
+    "監控站-紅-箭頭-B-16-6060.gif": "./images/監控站-紅-箭頭-B-16-6060.gif",
+    "監測站-紅-箭頭-B-01-6060.gif": "./images/監測站-紅-箭頭-B-01-6060.gif",
+    "監測站-紅-箭頭-B-02-6060.gif": "./images/監測站-紅-箭頭-B-02-6060.gif",
+    "監測站-紅-箭頭-B-03-6060.gif": "./images/監測站-紅-箭頭-B-03-6060.gif",
+    "監測站-紅-箭頭-B-04-6060.gif": "./images/監測站-紅-箭頭-B-04-6060.gif",
+    "監測站-紅-箭頭-B-05-6060.gif": "./images/監測站-紅-箭頭-B-05-6060.gif",
+    "監測站-紅-箭頭-B-06-6060.gif": "./images/監測站-紅-箭頭-B-06-6060.gif",
+    "監測站-紅-箭頭-B-07-6060.gif": "./images/監測站-紅-箭頭-B-07-6060.gif",
+    "監測站-紅-箭頭-B-08-6060.gif": "./images/監測站-紅-箭頭-B-08-6060.gif",
+    "監測站-紅-箭頭-B-09-6060.gif": "./images/監測站-紅-箭頭-B-09-6060.gif",
+    "監測站-紅-箭頭-B-10-6060.gif": "./images/監測站-紅-箭頭-B-10-6060.gif",
+    "監測站-紅-箭頭-B-11-6060.gif": "./images/監測站-紅-箭頭-B-11-6060.gif",
+    "監測站-紅-箭頭-B-12-6060.gif": "./images/監測站-紅-箭頭-B-12-6060.gif",
+    "監測站-紅-箭頭-B-13-6060.gif": "./images/監測站-紅-箭頭-B-13-6060.gif",
+    "監測站-紅-箭頭-B-14-6060.gif": "./images/監測站-紅-箭頭-B-14-6060.gif",
+    "監測站-紅-箭頭-B-15-6060.gif": "./images/監測站-紅-箭頭-B-15-6060.gif",
+    "監測站-紅-箭頭-B-16-6060.gif": "./images/監測站-紅-箭頭-B-16-6060.gif",
+    "加壓站-紅-箭頭-R-01-6060.gif": "./images/加壓站-紅-箭頭-R-01-6060.gif",
+    "加壓站-紅-箭頭-R-02-6060.gif": "./images/加壓站-紅-箭頭-R-02-6060.gif",
+    "加壓站-紅-箭頭-R-03-6060.gif": "./images/加壓站-紅-箭頭-R-03-6060.gif",
+    "加壓站-紅-箭頭-R-04-6060.gif": "./images/加壓站-紅-箭頭-R-04-6060.gif",
+    "加壓站-紅-箭頭-R-05-6060.gif": "./images/加壓站-紅-箭頭-R-05-6060.gif",
+    "加壓站-紅-箭頭-R-06-6060.gif": "./images/加壓站-紅-箭頭-R-06-6060.gif",
+    "加壓站-紅-箭頭-R-07-6060.gif": "./images/加壓站-紅-箭頭-R-07-6060.gif",
+    "加壓站-紅-箭頭-R-08-6060.gif": "./images/加壓站-紅-箭頭-R-08-6060.gif",
+    "加壓站-紅-箭頭-R-09-6060.gif": "./images/加壓站-紅-箭頭-R-09-6060.gif",
+    "加壓站-紅-箭頭-R-10-6060.gif": "./images/加壓站-紅-箭頭-R-10-6060.gif",
+    "加壓站-紅-箭頭-R-11-6060.gif": "./images/加壓站-紅-箭頭-R-11-6060.gif",
+    "加壓站-紅-箭頭-R-12-6060.gif": "./images/加壓站-紅-箭頭-R-12-6060.gif",
+    "加壓站-紅-箭頭-R-13-6060.gif": "./images/加壓站-紅-箭頭-R-13-6060.gif",
+    "加壓站-紅-箭頭-R-14-6060.gif": "./images/加壓站-紅-箭頭-R-14-6060.gif",
+    "加壓站-紅-箭頭-R-15-6060.gif": "./images/加壓站-紅-箭頭-R-15-6060.gif",
+    "加壓站-紅-箭頭-R-16-6060.gif": "./images/加壓站-紅-箭頭-R-16-6060.gif",
+    "監控站-紅-箭頭-R-01-6060.gif": "./images/監控站-紅-箭頭-R-01-6060.gif",
+    "監控站-紅-箭頭-R-02-6060.gif": "./images/監控站-紅-箭頭-R-02-6060.gif",
+    "監控站-紅-箭頭-R-03-6060.gif": "./images/監控站-紅-箭頭-R-03-6060.gif",
+    "監控站-紅-箭頭-R-04-6060.gif": "./images/監控站-紅-箭頭-R-04-6060.gif",
+    "監控站-紅-箭頭-R-05-6060.gif": "./images/監控站-紅-箭頭-R-05-6060.gif",
+    "監控站-紅-箭頭-R-06-6060.gif": "./images/監控站-紅-箭頭-R-06-6060.gif",
+    "監控站-紅-箭頭-R-07-6060.gif": "./images/監控站-紅-箭頭-R-07-6060.gif",
+    "監控站-紅-箭頭-R-08-6060.gif": "./images/監控站-紅-箭頭-R-08-6060.gif",
+    "監控站-紅-箭頭-R-09-6060.gif": "./images/監控站-紅-箭頭-R-09-6060.gif",
+    "監控站-紅-箭頭-R-10-6060.gif": "./images/監控站-紅-箭頭-R-10-6060.gif",
+    "監控站-紅-箭頭-R-11-6060.gif": "./images/監控站-紅-箭頭-R-11-6060.gif",
+    "監控站-紅-箭頭-R-12-6060.gif": "./images/監控站-紅-箭頭-R-12-6060.gif",
+    "監控站-紅-箭頭-R-13-6060.gif": "./images/監控站-紅-箭頭-R-13-6060.gif",
+    "監控站-紅-箭頭-R-14-6060.gif": "./images/監控站-紅-箭頭-R-14-6060.gif",
+    "監控站-紅-箭頭-R-15-6060.gif": "./images/監控站-紅-箭頭-R-15-6060.gif",
+    "監控站-紅-箭頭-R-16-6060.gif": "./images/監控站-紅-箭頭-R-16-6060.gif",
+    "監測站-紅-箭頭-R-01-6060.gif": "./images/監測站-紅-箭頭-R-01-6060.gif",
+    "監測站-紅-箭頭-R-02-6060.gif": "./images/監測站-紅-箭頭-R-02-6060.gif",
+    "監測站-紅-箭頭-R-03-6060.gif": "./images/監測站-紅-箭頭-R-03-6060.gif",
+    "監測站-紅-箭頭-R-04-6060.gif": "./images/監測站-紅-箭頭-R-04-6060.gif",
+    "監測站-紅-箭頭-R-05-6060.gif": "./images/監測站-紅-箭頭-R-05-6060.gif",
+    "監測站-紅-箭頭-R-06-6060.gif": "./images/監測站-紅-箭頭-R-06-6060.gif",
+    "監測站-紅-箭頭-R-07-6060.gif": "./images/監測站-紅-箭頭-R-07-6060.gif",
+    "監測站-紅-箭頭-R-08-6060.gif": "./images/監測站-紅-箭頭-R-08-6060.gif",
+    "監測站-紅-箭頭-R-09-6060.gif": "./images/監測站-紅-箭頭-R-09-6060.gif",
+    "監測站-紅-箭頭-R-10-6060.gif": "./images/監測站-紅-箭頭-R-10-6060.gif",
+    "監測站-紅-箭頭-R-11-6060.gif": "./images/監測站-紅-箭頭-R-11-6060.gif",
+    "監測站-紅-箭頭-R-12-6060.gif": "./images/監測站-紅-箭頭-R-12-6060.gif",
+    "監測站-紅-箭頭-R-13-6060.gif": "./images/監測站-紅-箭頭-R-13-6060.gif",
+    "監測站-紅-箭頭-R-14-6060.gif": "./images/監測站-紅-箭頭-R-14-6060.gif",
+    "監測站-紅-箭頭-R-15-6060.gif": "./images/監測站-紅-箭頭-R-15-6060.gif",
+    "監測站-紅-箭頭-R-16-6060.gif": "./images/監測站-紅-箭頭-R-16-6060.gif",
+
+    "加壓站-黃-箭頭-B-01-6060.gif": "./images/加壓站-黃-箭頭-B-01-6060.gif",
+    "加壓站-黃-箭頭-B-02-6060.gif": "./images/加壓站-黃-箭頭-B-02-6060.gif",
+    "加壓站-黃-箭頭-B-03-6060.gif": "./images/加壓站-黃-箭頭-B-03-6060.gif",
+    "加壓站-黃-箭頭-B-04-6060.gif": "./images/加壓站-黃-箭頭-B-04-6060.gif",
+    "加壓站-黃-箭頭-B-05-6060.gif": "./images/加壓站-黃-箭頭-B-05-6060.gif",
+    "加壓站-黃-箭頭-B-06-6060.gif": "./images/加壓站-黃-箭頭-B-06-6060.gif",
+    "加壓站-黃-箭頭-B-07-6060.gif": "./images/加壓站-黃-箭頭-B-07-6060.gif",
+    "加壓站-黃-箭頭-B-08-6060.gif": "./images/加壓站-黃-箭頭-B-08-6060.gif",
+    "加壓站-黃-箭頭-B-09-6060.gif": "./images/加壓站-黃-箭頭-B-09-6060.gif",
+    "加壓站-黃-箭頭-B-10-6060.gif": "./images/加壓站-黃-箭頭-B-10-6060.gif",
+    "加壓站-黃-箭頭-B-11-6060.gif": "./images/加壓站-黃-箭頭-B-11-6060.gif",
+    "加壓站-黃-箭頭-B-12-6060.gif": "./images/加壓站-黃-箭頭-B-12-6060.gif",
+    "加壓站-黃-箭頭-B-13-6060.gif": "./images/加壓站-黃-箭頭-B-13-6060.gif",
+    "加壓站-黃-箭頭-B-14-6060.gif": "./images/加壓站-黃-箭頭-B-14-6060.gif",
+    "加壓站-黃-箭頭-B-15-6060.gif": "./images/加壓站-黃-箭頭-B-15-6060.gif",
+    "加壓站-黃-箭頭-B-16-6060.gif": "./images/加壓站-黃-箭頭-B-16-6060.gif",
+    "監控站-黃-箭頭-B-01-6060.gif": "./images/監控站-黃-箭頭-B-01-6060.gif",
+    "監控站-黃-箭頭-B-02-6060.gif": "./images/監控站-黃-箭頭-B-02-6060.gif",
+    "監控站-黃-箭頭-B-03-6060.gif": "./images/監控站-黃-箭頭-B-03-6060.gif",
+    "監控站-黃-箭頭-B-04-6060.gif": "./images/監控站-黃-箭頭-B-04-6060.gif",
+    "監控站-黃-箭頭-B-05-6060.gif": "./images/監控站-黃-箭頭-B-05-6060.gif",
+    "監控站-黃-箭頭-B-06-6060.gif": "./images/監控站-黃-箭頭-B-06-6060.gif",
+    "監控站-黃-箭頭-B-07-6060.gif": "./images/監控站-黃-箭頭-B-07-6060.gif",
+    "監控站-黃-箭頭-B-08-6060.gif": "./images/監控站-黃-箭頭-B-08-6060.gif",
+    "監控站-黃-箭頭-B-09-6060.gif": "./images/監控站-黃-箭頭-B-09-6060.gif",
+    "監控站-黃-箭頭-B-10-6060.gif": "./images/監控站-黃-箭頭-B-10-6060.gif",
+    "監控站-黃-箭頭-B-11-6060.gif": "./images/監控站-黃-箭頭-B-11-6060.gif",
+    "監控站-黃-箭頭-B-12-6060.gif": "./images/監控站-黃-箭頭-B-12-6060.gif",
+    "監控站-黃-箭頭-B-13-6060.gif": "./images/監控站-黃-箭頭-B-13-6060.gif",
+    "監控站-黃-箭頭-B-14-6060.gif": "./images/監控站-黃-箭頭-B-14-6060.gif",
+    "監控站-黃-箭頭-B-15-6060.gif": "./images/監控站-黃-箭頭-B-15-6060.gif",
+    "監控站-黃-箭頭-B-16-6060.gif": "./images/監控站-黃-箭頭-B-16-6060.gif",
+    "監測站-黃-箭頭-B-01-6060.gif": "./images/監測站-黃-箭頭-B-01-6060.gif",
+    "監測站-黃-箭頭-B-02-6060.gif": "./images/監測站-黃-箭頭-B-02-6060.gif",
+    "監測站-黃-箭頭-B-03-6060.gif": "./images/監測站-黃-箭頭-B-03-6060.gif",
+    "監測站-黃-箭頭-B-04-6060.gif": "./images/監測站-黃-箭頭-B-04-6060.gif",
+    "監測站-黃-箭頭-B-05-6060.gif": "./images/監測站-黃-箭頭-B-05-6060.gif",
+    "監測站-黃-箭頭-B-06-6060.gif": "./images/監測站-黃-箭頭-B-06-6060.gif",
+    "監測站-黃-箭頭-B-07-6060.gif": "./images/監測站-黃-箭頭-B-07-6060.gif",
+    "監測站-黃-箭頭-B-08-6060.gif": "./images/監測站-黃-箭頭-B-08-6060.gif",
+    "監測站-黃-箭頭-B-09-6060.gif": "./images/監測站-黃-箭頭-B-09-6060.gif",
+    "監測站-黃-箭頭-B-10-6060.gif": "./images/監測站-黃-箭頭-B-10-6060.gif",
+    "監測站-黃-箭頭-B-11-6060.gif": "./images/監測站-黃-箭頭-B-11-6060.gif",
+    "監測站-黃-箭頭-B-12-6060.gif": "./images/監測站-黃-箭頭-B-12-6060.gif",
+    "監測站-黃-箭頭-B-13-6060.gif": "./images/監測站-黃-箭頭-B-13-6060.gif",
+    "監測站-黃-箭頭-B-14-6060.gif": "./images/監測站-黃-箭頭-B-14-6060.gif",
+    "監測站-黃-箭頭-B-15-6060.gif": "./images/監測站-黃-箭頭-B-15-6060.gif",
+    "監測站-黃-箭頭-B-16-6060.gif": "./images/監測站-黃-箭頭-B-16-6060.gif",
+    "加壓站-黃-箭頭-R-01-6060.gif": "./images/加壓站-黃-箭頭-R-01-6060.gif",
+    "加壓站-黃-箭頭-R-02-6060.gif": "./images/加壓站-黃-箭頭-R-02-6060.gif",
+    "加壓站-黃-箭頭-R-03-6060.gif": "./images/加壓站-黃-箭頭-R-03-6060.gif",
+    "加壓站-黃-箭頭-R-04-6060.gif": "./images/加壓站-黃-箭頭-R-04-6060.gif",
+    "加壓站-黃-箭頭-R-05-6060.gif": "./images/加壓站-黃-箭頭-R-05-6060.gif",
+    "加壓站-黃-箭頭-R-06-6060.gif": "./images/加壓站-黃-箭頭-R-06-6060.gif",
+    "加壓站-黃-箭頭-R-07-6060.gif": "./images/加壓站-黃-箭頭-R-07-6060.gif",
+    "加壓站-黃-箭頭-R-08-6060.gif": "./images/加壓站-黃-箭頭-R-08-6060.gif",
+    "加壓站-黃-箭頭-R-09-6060.gif": "./images/加壓站-黃-箭頭-R-09-6060.gif",
+    "加壓站-黃-箭頭-R-10-6060.gif": "./images/加壓站-黃-箭頭-R-10-6060.gif",
+    "加壓站-黃-箭頭-R-11-6060.gif": "./images/加壓站-黃-箭頭-R-11-6060.gif",
+    "加壓站-黃-箭頭-R-12-6060.gif": "./images/加壓站-黃-箭頭-R-12-6060.gif",
+    "加壓站-黃-箭頭-R-13-6060.gif": "./images/加壓站-黃-箭頭-R-13-6060.gif",
+    "加壓站-黃-箭頭-R-14-6060.gif": "./images/加壓站-黃-箭頭-R-14-6060.gif",
+    "加壓站-黃-箭頭-R-15-6060.gif": "./images/加壓站-黃-箭頭-R-15-6060.gif",
+    "加壓站-黃-箭頭-R-16-6060.gif": "./images/加壓站-黃-箭頭-R-16-6060.gif",
+    "監控站-黃-箭頭-R-01-6060.gif": "./images/監控站-黃-箭頭-R-01-6060.gif",
+    "監控站-黃-箭頭-R-02-6060.gif": "./images/監控站-黃-箭頭-R-02-6060.gif",
+    "監控站-黃-箭頭-R-03-6060.gif": "./images/監控站-黃-箭頭-R-03-6060.gif",
+    "監控站-黃-箭頭-R-04-6060.gif": "./images/監控站-黃-箭頭-R-04-6060.gif",
+    "監控站-黃-箭頭-R-05-6060.gif": "./images/監控站-黃-箭頭-R-05-6060.gif",
+    "監控站-黃-箭頭-R-06-6060.gif": "./images/監控站-黃-箭頭-R-06-6060.gif",
+    "監控站-黃-箭頭-R-07-6060.gif": "./images/監控站-黃-箭頭-R-07-6060.gif",
+    "監控站-黃-箭頭-R-08-6060.gif": "./images/監控站-黃-箭頭-R-08-6060.gif",
+    "監控站-黃-箭頭-R-09-6060.gif": "./images/監控站-黃-箭頭-R-09-6060.gif",
+    "監控站-黃-箭頭-R-10-6060.gif": "./images/監控站-黃-箭頭-R-10-6060.gif",
+    "監控站-黃-箭頭-R-11-6060.gif": "./images/監控站-黃-箭頭-R-11-6060.gif",
+    "監控站-黃-箭頭-R-12-6060.gif": "./images/監控站-黃-箭頭-R-12-6060.gif",
+    "監控站-黃-箭頭-R-13-6060.gif": "./images/監控站-黃-箭頭-R-13-6060.gif",
+    "監控站-黃-箭頭-R-14-6060.gif": "./images/監控站-黃-箭頭-R-14-6060.gif",
+    "監控站-黃-箭頭-R-15-6060.gif": "./images/監控站-黃-箭頭-R-15-6060.gif",
+    "監控站-黃-箭頭-R-16-6060.gif": "./images/監控站-黃-箭頭-R-16-6060.gif",
+    "監測站-黃-箭頭-R-01-6060.gif": "./images/監測站-黃-箭頭-R-01-6060.gif",
+    "監測站-黃-箭頭-R-02-6060.gif": "./images/監測站-黃-箭頭-R-02-6060.gif",
+    "監測站-黃-箭頭-R-03-6060.gif": "./images/監測站-黃-箭頭-R-03-6060.gif",
+    "監測站-黃-箭頭-R-04-6060.gif": "./images/監測站-黃-箭頭-R-04-6060.gif",
+    "監測站-黃-箭頭-R-05-6060.gif": "./images/監測站-黃-箭頭-R-05-6060.gif",
+    "監測站-黃-箭頭-R-06-6060.gif": "./images/監測站-黃-箭頭-R-06-6060.gif",
+    "監測站-黃-箭頭-R-07-6060.gif": "./images/監測站-黃-箭頭-R-07-6060.gif",
+    "監測站-黃-箭頭-R-08-6060.gif": "./images/監測站-黃-箭頭-R-08-6060.gif",
+    "監測站-黃-箭頭-R-09-6060.gif": "./images/監測站-黃-箭頭-R-09-6060.gif",
+    "監測站-黃-箭頭-R-10-6060.gif": "./images/監測站-黃-箭頭-R-10-6060.gif",
+    "監測站-黃-箭頭-R-11-6060.gif": "./images/監測站-黃-箭頭-R-11-6060.gif",
+    "監測站-黃-箭頭-R-12-6060.gif": "./images/監測站-黃-箭頭-R-12-6060.gif",
+    "監測站-黃-箭頭-R-13-6060.gif": "./images/監測站-黃-箭頭-R-13-6060.gif",
+    "監測站-黃-箭頭-R-14-6060.gif": "./images/監測站-黃-箭頭-R-14-6060.gif",
+    "監測站-黃-箭頭-R-15-6060.gif": "./images/監測站-黃-箭頭-R-15-6060.gif",
+    "監測站-黃-箭頭-R-16-6060.gif": "./images/監測站-黃-箭頭-R-16-6060.gif",
+
+    "加壓站-綠-箭頭-B-01-6060.gif": "./images/加壓站-綠-箭頭-B-01-6060.gif",
+    "加壓站-綠-箭頭-B-02-6060.gif": "./images/加壓站-綠-箭頭-B-02-6060.gif",
+    "加壓站-綠-箭頭-B-03-6060.gif": "./images/加壓站-綠-箭頭-B-03-6060.gif",
+    "加壓站-綠-箭頭-B-04-6060.gif": "./images/加壓站-綠-箭頭-B-04-6060.gif",
+    "加壓站-綠-箭頭-B-05-6060.gif": "./images/加壓站-綠-箭頭-B-05-6060.gif",
+    "加壓站-綠-箭頭-B-06-6060.gif": "./images/加壓站-綠-箭頭-B-06-6060.gif",
+    "加壓站-綠-箭頭-B-07-6060.gif": "./images/加壓站-綠-箭頭-B-07-6060.gif",
+    "加壓站-綠-箭頭-B-08-6060.gif": "./images/加壓站-綠-箭頭-B-08-6060.gif",
+    "加壓站-綠-箭頭-B-09-6060.gif": "./images/加壓站-綠-箭頭-B-09-6060.gif",
+    "加壓站-綠-箭頭-B-10-6060.gif": "./images/加壓站-綠-箭頭-B-10-6060.gif",
+    "加壓站-綠-箭頭-B-11-6060.gif": "./images/加壓站-綠-箭頭-B-11-6060.gif",
+    "加壓站-綠-箭頭-B-12-6060.gif": "./images/加壓站-綠-箭頭-B-12-6060.gif",
+    "加壓站-綠-箭頭-B-13-6060.gif": "./images/加壓站-綠-箭頭-B-13-6060.gif",
+    "加壓站-綠-箭頭-B-14-6060.gif": "./images/加壓站-綠-箭頭-B-14-6060.gif",
+    "加壓站-綠-箭頭-B-15-6060.gif": "./images/加壓站-綠-箭頭-B-15-6060.gif",
+    "加壓站-綠-箭頭-B-16-6060.gif": "./images/加壓站-綠-箭頭-B-16-6060.gif",
+    "監控站-綠-箭頭-B-01-6060.gif": "./images/監控站-綠-箭頭-B-01-6060.gif",
+    "監控站-綠-箭頭-B-02-6060.gif": "./images/監控站-綠-箭頭-B-02-6060.gif",
+    "監控站-綠-箭頭-B-03-6060.gif": "./images/監控站-綠-箭頭-B-03-6060.gif",
+    "監控站-綠-箭頭-B-04-6060.gif": "./images/監控站-綠-箭頭-B-04-6060.gif",
+    "監控站-綠-箭頭-B-05-6060.gif": "./images/監控站-綠-箭頭-B-05-6060.gif",
+    "監控站-綠-箭頭-B-06-6060.gif": "./images/監控站-綠-箭頭-B-06-6060.gif",
+    "監控站-綠-箭頭-B-07-6060.gif": "./images/監控站-綠-箭頭-B-07-6060.gif",
+    "監控站-綠-箭頭-B-08-6060.gif": "./images/監控站-綠-箭頭-B-08-6060.gif",
+    "監控站-綠-箭頭-B-09-6060.gif": "./images/監控站-綠-箭頭-B-09-6060.gif",
+    "監控站-綠-箭頭-B-10-6060.gif": "./images/監控站-綠-箭頭-B-10-6060.gif",
+    "監控站-綠-箭頭-B-11-6060.gif": "./images/監控站-綠-箭頭-B-11-6060.gif",
+    "監控站-綠-箭頭-B-12-6060.gif": "./images/監控站-綠-箭頭-B-12-6060.gif",
+    "監控站-綠-箭頭-B-13-6060.gif": "./images/監控站-綠-箭頭-B-13-6060.gif",
+    "監控站-綠-箭頭-B-14-6060.gif": "./images/監控站-綠-箭頭-B-14-6060.gif",
+    "監控站-綠-箭頭-B-15-6060.gif": "./images/監控站-綠-箭頭-B-15-6060.gif",
+    "監控站-綠-箭頭-B-16-6060.gif": "./images/監控站-綠-箭頭-B-16-6060.gif",
+    "監測站-綠-箭頭-B-01-6060.gif": "./images/監測站-綠-箭頭-B-01-6060.gif",
+    "監測站-綠-箭頭-B-02-6060.gif": "./images/監測站-綠-箭頭-B-02-6060.gif",
+    "監測站-綠-箭頭-B-03-6060.gif": "./images/監測站-綠-箭頭-B-03-6060.gif",
+    "監測站-綠-箭頭-B-04-6060.gif": "./images/監測站-綠-箭頭-B-04-6060.gif",
+    "監測站-綠-箭頭-B-05-6060.gif": "./images/監測站-綠-箭頭-B-05-6060.gif",
+    "監測站-綠-箭頭-B-06-6060.gif": "./images/監測站-綠-箭頭-B-06-6060.gif",
+    "監測站-綠-箭頭-B-07-6060.gif": "./images/監測站-綠-箭頭-B-07-6060.gif",
+    "監測站-綠-箭頭-B-08-6060.gif": "./images/監測站-綠-箭頭-B-08-6060.gif",
+    "監測站-綠-箭頭-B-09-6060.gif": "./images/監測站-綠-箭頭-B-09-6060.gif",
+    "監測站-綠-箭頭-B-10-6060.gif": "./images/監測站-綠-箭頭-B-10-6060.gif",
+    "監測站-綠-箭頭-B-11-6060.gif": "./images/監測站-綠-箭頭-B-11-6060.gif",
+    "監測站-綠-箭頭-B-12-6060.gif": "./images/監測站-綠-箭頭-B-12-6060.gif",
+    "監測站-綠-箭頭-B-13-6060.gif": "./images/監測站-綠-箭頭-B-13-6060.gif",
+    "監測站-綠-箭頭-B-14-6060.gif": "./images/監測站-綠-箭頭-B-14-6060.gif",
+    "監測站-綠-箭頭-B-15-6060.gif": "./images/監測站-綠-箭頭-B-15-6060.gif",
+    "監測站-綠-箭頭-B-16-6060.gif": "./images/監測站-綠-箭頭-B-16-6060.gif",
+    "加壓站-綠-箭頭-R-01-6060.gif": "./images/加壓站-綠-箭頭-R-01-6060.gif",
+    "加壓站-綠-箭頭-R-02-6060.gif": "./images/加壓站-綠-箭頭-R-02-6060.gif",
+    "加壓站-綠-箭頭-R-03-6060.gif": "./images/加壓站-綠-箭頭-R-03-6060.gif",
+    "加壓站-綠-箭頭-R-04-6060.gif": "./images/加壓站-綠-箭頭-R-04-6060.gif",
+    "加壓站-綠-箭頭-R-05-6060.gif": "./images/加壓站-綠-箭頭-R-05-6060.gif",
+    "加壓站-綠-箭頭-R-06-6060.gif": "./images/加壓站-綠-箭頭-R-06-6060.gif",
+    "加壓站-綠-箭頭-R-07-6060.gif": "./images/加壓站-綠-箭頭-R-07-6060.gif",
+    "加壓站-綠-箭頭-R-08-6060.gif": "./images/加壓站-綠-箭頭-R-08-6060.gif",
+    "加壓站-綠-箭頭-R-09-6060.gif": "./images/加壓站-綠-箭頭-R-09-6060.gif",
+    "加壓站-綠-箭頭-R-10-6060.gif": "./images/加壓站-綠-箭頭-R-10-6060.gif",
+    "加壓站-綠-箭頭-R-11-6060.gif": "./images/加壓站-綠-箭頭-R-11-6060.gif",
+    "加壓站-綠-箭頭-R-12-6060.gif": "./images/加壓站-綠-箭頭-R-12-6060.gif",
+    "加壓站-綠-箭頭-R-13-6060.gif": "./images/加壓站-綠-箭頭-R-13-6060.gif",
+    "加壓站-綠-箭頭-R-14-6060.gif": "./images/加壓站-綠-箭頭-R-14-6060.gif",
+    "加壓站-綠-箭頭-R-15-6060.gif": "./images/加壓站-綠-箭頭-R-15-6060.gif",
+    "加壓站-綠-箭頭-R-16-6060.gif": "./images/加壓站-綠-箭頭-R-16-6060.gif",
+    "監控站-綠-箭頭-R-01-6060.gif": "./images/監控站-綠-箭頭-R-01-6060.gif",
+    "監控站-綠-箭頭-R-02-6060.gif": "./images/監控站-綠-箭頭-R-02-6060.gif",
+    "監控站-綠-箭頭-R-03-6060.gif": "./images/監控站-綠-箭頭-R-03-6060.gif",
+    "監控站-綠-箭頭-R-04-6060.gif": "./images/監控站-綠-箭頭-R-04-6060.gif",
+    "監控站-綠-箭頭-R-05-6060.gif": "./images/監控站-綠-箭頭-R-05-6060.gif",
+    "監控站-綠-箭頭-R-06-6060.gif": "./images/監控站-綠-箭頭-R-06-6060.gif",
+    "監控站-綠-箭頭-R-07-6060.gif": "./images/監控站-綠-箭頭-R-07-6060.gif",
+    "監控站-綠-箭頭-R-08-6060.gif": "./images/監控站-綠-箭頭-R-08-6060.gif",
+    "監控站-綠-箭頭-R-09-6060.gif": "./images/監控站-綠-箭頭-R-09-6060.gif",
+    "監控站-綠-箭頭-R-10-6060.gif": "./images/監控站-綠-箭頭-R-10-6060.gif",
+    "監控站-綠-箭頭-R-11-6060.gif": "./images/監控站-綠-箭頭-R-11-6060.gif",
+    "監控站-綠-箭頭-R-12-6060.gif": "./images/監控站-綠-箭頭-R-12-6060.gif",
+    "監控站-綠-箭頭-R-13-6060.gif": "./images/監控站-綠-箭頭-R-13-6060.gif",
+    "監控站-綠-箭頭-R-14-6060.gif": "./images/監控站-綠-箭頭-R-14-6060.gif",
+    "監控站-綠-箭頭-R-15-6060.gif": "./images/監控站-綠-箭頭-R-15-6060.gif",
+    "監控站-綠-箭頭-R-16-6060.gif": "./images/監控站-綠-箭頭-R-16-6060.gif",
+    "監測站-綠-箭頭-R-01-6060.gif": "./images/監測站-綠-箭頭-R-01-6060.gif",
+    "監測站-綠-箭頭-R-02-6060.gif": "./images/監測站-綠-箭頭-R-02-6060.gif",
+    "監測站-綠-箭頭-R-03-6060.gif": "./images/監測站-綠-箭頭-R-03-6060.gif",
+    "監測站-綠-箭頭-R-04-6060.gif": "./images/監測站-綠-箭頭-R-04-6060.gif",
+    "監測站-綠-箭頭-R-05-6060.gif": "./images/監測站-綠-箭頭-R-05-6060.gif",
+    "監測站-綠-箭頭-R-06-6060.gif": "./images/監測站-綠-箭頭-R-06-6060.gif",
+    "監測站-綠-箭頭-R-07-6060.gif": "./images/監測站-綠-箭頭-R-07-6060.gif",
+    "監測站-綠-箭頭-R-08-6060.gif": "./images/監測站-綠-箭頭-R-08-6060.gif",
+    "監測站-綠-箭頭-R-09-6060.gif": "./images/監測站-綠-箭頭-R-09-6060.gif",
+    "監測站-綠-箭頭-R-10-6060.gif": "./images/監測站-綠-箭頭-R-10-6060.gif",
+    "監測站-綠-箭頭-R-11-6060.gif": "./images/監測站-綠-箭頭-R-11-6060.gif",
+    "監測站-綠-箭頭-R-12-6060.gif": "./images/監測站-綠-箭頭-R-12-6060.gif",
+    "監測站-綠-箭頭-R-13-6060.gif": "./images/監測站-綠-箭頭-R-13-6060.gif",
+    "監測站-綠-箭頭-R-14-6060.gif": "./images/監測站-綠-箭頭-R-14-6060.gif",
+    "監測站-綠-箭頭-R-15-6060.gif": "./images/監測站-綠-箭頭-R-15-6060.gif",
+    "監測站-綠-箭頭-R-16-6060.gif": "./images/監測站-綠-箭頭-R-16-6060.gif",
+};
+var banxinOverviewUrl_ = {
+  "板新給水廠總覽": {
+      'legend': '',
+      'url':'http://220.134.42.63:8080/WaterscadaAPI/WI_StationData?section=轄區供水系統&item=2&measure=電動閥,進出水點',
+      'wmsurl': ''
+  },
+  "350mm以上": {
+      'legend': 'http://10.12.144.42:8080/geoserver/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=100&height=30&layer=TWW12:pipe_3200',
+      'url':'',
+//      'wmsurl': "https://wms.nlsc.gov.tw/wms?&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&BBOX=352136.448733,2807602.054796,144847.277860,2406316.107441&SRS=EPSG:3826&WIDTH=1600&HEIGHT=890&LAYERS=MOI_HILLSHADE&FORMAT=image/png&DPI=96&MAP_RESOLUTION=96&FORMAT_OPTIONS=dpi:96&TRANSPARENT=TRUE"
+      'wmsurl':'http://10.12.144.42:8080/geoserver/TWW12/wms?service=WMS&request=GetMap&layers=TWW12:pipe_3205&bbox=282726.579805102,2754342.30455815,303043.983718742,2783556.28627307&width=534&height=768&srs=EPSG:3826&format=image/png&TRANSPARENT=true'
+  },
+  "板新給水廠WMS":{
+      'legend':'none',
+      'url':'',
+      'wmsurl': {
+                "鶯歌服務所": "http://10.12.144.42:8080/geoserver/TWW/wms?service=WMS&request=GetMap&layers=TWW:Yingge&bbox=281895.2447104211,2742578.4774454506,300249.9665335865,2763897.4774454506&width=661&height=768&srs=EPSG:3826&format=image/png&TRANSPARENT=true",
+                "樹林服務所": "http://10.12.144.42:8080/geoserver/TWW/wms?service=WMS&request=GetMap&layers=TWW:Shulin&bbox=286503.2477835865,2759475.7274454506,293635.2477835865,2768081.4774454506&width=636&height=768&srs=EPSG:3826&format=image/png&TRANSPARENT=true",
+                "土城服務所": "http://10.12.144.42:8080/geoserver/TWW/wms?service=WMS&request=GetMap&layers=TWW:Tucheng&bbox=291163.5602835865,2758712.4774454506,298675.4977835865,2765432.2274454506&width=768&height=687&srs=EPSG:3826&format=image/png&TRANSPARENT=true",
+                "板橋服務所": "http://10.12.144.42:8080/geoserver/TWW/wms?service=WMS&request=GetMap&layers=TWW:Banqiao&bbox=292863.4040335865,2761864.2274454506,299655.57203609165,2770251.4774454506&width=621&height=768&srs=EPSG:3826&format=image/png&TRANSPARENT=true",
+                "新莊服務所": "http://10.12.144.42:8080/geoserver/TWW/wms?service=WMS&request=GetMap&layers=TWW:Xinzhuang&bbox=289420.2087284418,2765299.2274454506,298387.7803280551,2773458.4774454506&width=768&height=698&srs=EPSG:3826&format=image/png&TRANSPARENT=true",
+                "蘆洲服務所": "http://10.12.144.42:8080/geoserver/TWW/wms?service=WMS&request=GetMap&layers=TWW:Luzhou&bbox=286932.1540335865,2773890.1221998935,299574.4665335865,2784745.2089639166&width=768&height=659&srs=EPSG:3826&format=image/png&TRANSPARENT=true",
+                "泰山營運所": "http://10.12.144.42:8080/geoserver/TWW/wms?service=WMS&request=GetMap&layers=TWW:Taishan&bbox=288056.7477835865,2769016.2274454506,297522.0915335865,2780475.7274454506&width=634&height=768&srs=EPSG:3826&format=image/png&TRANSPARENT=true",
+//                "測試WMS": "https://wms.nlsc.gov.tw/wms?&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&BBOX=352136.448733,2807602.054796,144847.277860,2406316.107441&SRS=EPSG:3826&WIDTH=1600&HEIGHT=890&LAYERS=MOI_HILLSHADE&FORMAT=image/png&DPI=96&MAP_RESOLUTION=96&FORMAT_OPTIONS=dpi:96&TRANSPARENT=TRUE",
+            }
+  }
+  
+};
+  var messageBox; //訊息視窗物件  
+  var pMap; //初始化地圖物件
+
+  //------------------------------須自行修改的參數,包含點位坐標,訊息視窗內容及圖示檔案來源設定------------------------------
+
+  var infotext = '<B>板新給水廠</B><br>'; //地標名稱及訊息視窗內容
+
+  var markerPoint = new TGOS.TGPoint(285718.91586603626,2758951.8598162658); //地標坐標位置
+
+  var imgUrl = "http://api.tgos.tw/TGOS_API/images/marker2.png"; //標記點圖示來源
+
+function InitWnd() {
+  var pOMap = document.getElementById("TGMap");
+  var mapOptiions = {
+        scaleControl: false, //不顯示比例尺
+        navigationControl: true, //顯示地圖縮放控制項
+        navigationControlOptions: { //設定地圖縮放控制項
+        controlPosition: TGOS.TGControlPosition.TOP_LEFT, //控制項位置
+        navigationControlStyle: TGOS.TGNavigationControlStyle.SMALL //控制項樣式
+      }, 
+      mapTypeControl: false //不顯示地圖類型控制項
+  };
+  pMap = new TGOS.TGOnlineMap(pOMap, TGOS.TGCoordSys.EPSG3826, mapOptiions); //建立地圖,選擇TWD97坐標
+  pMap.setZoom(6); //初始地圖縮放層級
+  
+  pMap.setCenter(markerPoint); //初始地圖中心點
+  
+  //-----------------建立訊息視窗--------------------
+
+//  var InfoWindowOptions = {
+//    maxWidth: 4000, //訊息視窗的最大寬度
+//    pixelOffset: new TGOS.TGSize(5, -30), //InfoWindow起始位置的偏移量, 使用TGSize設定, 向右X為正, 向上Y為負 
+//    zIndex: 1 //視窗堆疊順序
+//  };
+//  
+//  messageBox = new TGOS.TGInfoWindow(infotext, markerPoint, InfoWindowOptions); //建立訊息視窗
+//  TGOS.TGEvent.addListener(pTGMarker, "mouseover", openInfoWindow); //滑鼠監聽事件--開啟訊息視窗
+//  TGOS.TGEvent.addListener(pTGMarker, "mouseout", closeInfoWindow); //滑鼠監聽事件--關閉訊息視窗
+  basicSetting();
+}
+var WMSLayer = null;	//宣告一個空的變數, 準備承接WMS物件使用
+var WMSLayers = new Array();
+function addWms(turl){
+  var opacity = 0.8;
+  WMSLayer = new TGOS.TGWmsLayer(turl, {
+    //建立WMS物件, 加入WMS連結, 並指定相關屬性
+        map: pMap,
+        preserveViewport: true,
+        zIndex: 0,
+        wsVisible: true,
+    });
+    WMSLayer.setOpacity(opacity);
+    WMSLayers.push(WMSLayer); 
+}
+
+function attachWms(turl){
+  debugger;
+  var timeoutflag = '';
+  if(typeof turl == 'string'){
+    addWms(turl);
+  }
+  if(typeof turl == 'object') {
+    var _wmsurl_ = [];
+    $.each(turl, function(k,v){
+      _wmsurl_.push(v);      
+    });
+    for(var x=0; x<_wmsurl_.length; x++){
+      var turl_ = _wmsurl_[x];
+      timeoutflag = setTimeout(addWms(turl_), 50);
+      
+    }
+    clearTimeout(timeoutflag);
+  }
+}
+function deleteWms(){
+  if (WMSLayers.length > 0) {
+      for(var i = 0; i < WMSLayers.length; i++)
+      {
+          WMSLayers[i].removeWmsLayer();	//當圖面上存在WMS圖層時, 將該圖層移除
+      }
+  } else {
+      alert('圖面上不存在WMS圖層');
+  }
+}
+function openInfoWindow() { //開啟訊息視窗函式
+  messageBox.open(pMap);
+}
+
+function closeInfoWindow() { //關閉訊息視窗函式
+  messageBox.close();
+}
+
+function basicSetting(){
+  var statId;
+  attachWms(banxinOverviewUrl_['板新給水廠WMS']['wmsurl']);
+  attachWms(banxinOverviewUrl_['350mm以上']['wmsurl']);
+  statId = composerData(banxinOverviewUrl_['板新給水廠總覽']['url']);
+  composerTGImage(statId,'');
+}
+
+var lastTime, stationsObj, datasObj, itemsObj;
+function composerData(url){
+var stations_id = [];
+  var json = getToServer(url);
+//  var json = testpattern;
+  console.log(json);
+  $.each(json, function(key, value){
+    lastTime = json['LAST_DATETIME'];
+    stationsObj = json['STATIONS'];
+    datasObj = json['DATA'];    
+  });
+  $.each(stationsObj, function(key, value){
+    var x = value["STATION_ID"]
+    stations_id.push(x);
+  }); 
+    console.log(stations_id);
+  return stations_id;
+}
+
+function assignFlag(array) {
+  var _flag;
+  var string = array.join(",");
+  if ((string.indexOf('?') > -1) || (string.indexOf(' ') > -1))
+      _flag = "灰";
+  else if ((string.indexOf('>>') > -1) || (string.indexOf('<<') > -1))
+      _flag = "紅";
+  else if ((string.indexOf('>') > -1) || (string.indexOf('<') > -1))
+      _flag = "黃";
+  else
+      _flag = "綠";
+//  debugger;
+  return _flag;   
+}
+//將WGS84坐標系統轉換為TWD97(台灣)坐標系統
+function coordinateConverter(Y, X, deviation) {
+    var TT = new TGOS.TGTransformation();
+    var correctedX, correctedY;
+
+    if (Y > 100) {
+        correctedX = Y;
+        correctedY = X;
+    } else {
+        correctedX = X;
+        correctedY = Y;
+    }
+
+    TT.wgs84totwd97(correctedX, correctedY); // alert(TT.transResult.x + "," +TT.transResult.y);
+    //console.log("座標97:" + TT.transResult.x, TT.transResult.y);
+    var point = "";
+    if (deviation) {
+        point = new TGOS.TGPoint(TT.transResult.x + deviation['X'], TT.transResult.y + deviation['Y']);
+    } else {
+        point = new TGOS.TGPoint(TT.transResult.x, TT.transResult.y);
+    }
+    return point;
+}
+function attdisplayNam (url_){
+//./images/加壓站-灰-箭頭-B-14-6060.gif
+  var sta = url_;
+//  debugger;
+  sta = controlImg[sta.replace('@', '-')];
+  return sta;
+}
+function attachImg(url_){
+//"板南加壓站@121.35545@24.93863@箭頭-B-11.png"
+  //箭頭-B-11.png
+  var _url_ = url_.split("@");
+  var _temp_ = _url_[0]+"-"+_url_[2]+"-"+_url_[1];
+  var sta = _temp_.replace(".png","-6060.gif");
+  return stationType_Animated[sta];
+}
+
+function composerTGImage(_array_,img){
+  var staID = _array_;
+  var found_flg = 0;
+  var dataString = [], flag_=[], assignFlag_, markerPoint = [], infotext = [];
+//  var imgUrl = "http://api.tgos.tw/TGOS_API/images/marker2.png"; 
+  if(staID.length > 0){
+    for(var x=0; x<staID.length; x++){
+      $.each(stationsObj, function(k,v){
+        if(staID[x] == v['STATION_ID']){
+          $.each(datasObj, function(k1,v1){
+            if(staID[x] == v1['STATION_ID']){
+              $.each(v1['ITEMS'],function (k2, v2){
+                flag_.push(v2["FLAG"]);              
+              });
+              assignFlag_ = assignFlag(flag_);
+            }
+          });
+          if(v['IMAGE'] == null) {
+            var icon = attdisplayNam(v['STATION_TYPE']+"@"+assignFlag_);
+          } else {
+  //          debugger;
+            var icon = attachImg(v['STATION_TYPE']+"@"+v['IMAGE']+"@"+assignFlag_);
+          } 
+          //"板南加壓站@121.35545@24.93863@箭頭-B-11.png"
+          dataString.push(v['STATION_ID']+"@"+v['X']+"@"+v['Y']+"@"+icon);
+          found_flg = 1;        
+        }
+      });
+      var stationID = dataString[x].split("@")[0];
+      var axis = coordinateConverter(dataString[x].split("@")[1], dataString[x].split("@")[2], deviation);
+      var imgUrl = dataString[x].split("@")[3];
+      var imgX = imgUrl.substr(-8,2)* 0.7;
+      var imgY = imgUrl.substr(-6,2)* 0.7;
+      var _x_ =axis[0];
+      var _y_ = axis[1];
+      var _temp_ = dataString[x].split("@");
+      _temp_.splice(1,2,_x_,_y_);    
+      //------------------建立標記點---------------------
+      var markerImg = new TGOS.TGImage(imgUrl, new TGOS.TGSize(imgX, imgY), new TGOS.TGPoint(0, 0), new TGOS.TGPoint(10, 33));	//設定標記點圖片及尺寸大小
+      var pTGMarker = new TGOS.TGMarker(pMap, axis, stationID, markerImg, {flat:false});	//建立機關單位標記點
+      infotext[x] = "1234"+x;
+      //-----------------建立訊息視窗--------------------
+      var InfoWindowOptions = {
+        maxWidth: 100, //訊息視窗的最大寬度
+        pixelOffset: new TGOS.TGSize(0, 0), //InfoWindow起始位置的偏移量, 使用TGSize設定, 向右X為正, 向上Y為負 
+        zIndex: 10 //視窗堆疊順序
+      };
+//      markerPoint.push([axis.x, axis.y]);
+      
+//      messageBox = new TGOS.TGInfoWindow(infotext[x], axis, InfoWindowOptions); //建立訊息視窗
+//      TGOS.TGEvent.addListener(pTGMarker, "mouseover", openInfoWindow); //滑鼠監聽事件--開啟訊息視窗
+//      TGOS.TGEvent.addListener(pTGMarker, "mouseout", closeInfoWindow); //滑鼠監聽事件--關閉訊息視窗
+    }
+    console.log(dataString);
+  } else 
+    alert("目前無資料。");
+};
+
+
+function infoMemoControll(stationId, clickFromSearch) { 
+  debugger;
+  var measurPhicso = document.getElementById('Elev_MSR').value;
+  if (clickFromSearch) {
+    //左上搜尋後跳出資訊視窗
+    document.getElementById('InfoWin').value = stationId;
+    infoMemoGetRealtimeData(true);
+
+//        searchMarkerControll(stationId);
+  } else {
+    // alert("clicknotFromSearch");
+    document.getElementById('InfoWin').value = stationId;
+    infoMemoGetRealtimeData(false);
+  }
+}
+
+function infoMemoGetRealtimeData(Formsearch) {
+  var labelInFo = "";
+
+  //labelInFo = labelInfoComposer(jsondata);
+  var btnFlag = false;
+  var stationId = document.getElementById('InfoWin').value;
+  var measure_info = document.getElementById('Elev_MSR').value;
+  var item_info = document.getElementById('Elev_ITM').value;
+  var status = 'infoWinAllsite';
+  var dataQueryUrl = "http://220.134.42.63:8080/waterscadaAPI/GetRealtimeData?station_id=" + stationId + "&measure=*&include_wi=1";
+  //disable搜尋鈕
+  if (!Formsearch) {
+      //全區供水
+      if ($("#left_nav1 .top_left_menu > li:nth-child(1)").hasClass('active')) {
+          //全部場站
+          if ($(".multipleChoice.active .allsitecontrol1").hasClass('active')) {
+              dataQueryUrl = "http://220.134.42.63:8080/waterscadaAPI/GetRealtimeData?station_id=" + stationId + "&measure=" + measure_info + "&include_wi=1";
+              console.log('全部場站');
+              btnFlag = false;
+          }
+          //重要場站
+          if ($(".multipleChoice.active .importantsitecontroll").hasClass('active')) {
+              dataQueryUrl = 'http://220.134.42.63:8080/WaterscadaAPI/WI_StationData?section=轄區供水系統&item=' + item_info + '&measure=' + measure_info + '&station_id=' + stationId + "&only_wi=1";
+              status = 'infoWinImportant';
+              console.log('重要場站');
+              btnFlag = true;
+          }
+      }
+      //供水系統
+      if ($("#left_nav1 .top_left_menu > li:nth-child(2)").hasClass('active')) {
+          dataQueryUrl = "http://220.134.42.63:8080/waterscadaAPI/GetRealtimeData?station_id=" + stationId + "&measure=*&include_wi=1";
+          btnFlag = false;
+          console.log("供水系統URL: " + dataQueryUrl);
+      }
+  } else {
+      //enable搜尋鈕
+      dataQueryUrl = "http://220.134.42.63:8080/waterscadaAPI/GetRealtimeData?station_id=" + stationId + "&measure=*&include_wi=1";
+      console.log("搜尋URL: " + dataQueryUrl);
+      console.log('enable搜尋鈕');
+  }
+  console.log("send:" + dataQueryUrl);
+  var getBSDR = [];
+   $.ajax({
+      url: dataQueryUrl,
+      type: "GET",
+      dataType: "json",
+      async:false,
+      success: function(Jdata) {
+        if(!btnFlag) {
+          var reboundlabelInFo = dataAllSiteRecomposer(Jdata);
+          var labelInFo = labelInfoComposer(reboundlabelInFo);
+        } else {
+          var labelInFo = labelInfoComposer(Jdata);
+        }
+        console.log(labelInFo);
+//            if(labelInFo["STATIONS"].length < 0) { alert("此資料內容為空。請確認網路連線問題!\n或請IT人員協助處理。");   return;}
+        var infotext = labelInFo['infotext'];
+        var markerPoint = labelInFo['markerPoint'];
+//            var imgUrl = labelInFo['imgUrl'];
+//            var linkNumber = labelInFo['LINK'];
+//            pointDeviated = labelInFo['markerPointDeviated'];
+//            if (labelInFo["STATIONS"].length > 0) {        
+          for (var i = 0; i < infotext.length; i++) {
+            var InfoWindowOptions = {
+                  maxWidth: 100,
+                  //訊息視窗的最大寬度
+                  zIndex: 10,
+                  pixelOffset: new TGOS.TGSize(messageBoxOffset['X'], messageBoxOffset['Y']) //InfoWindow起始位置的偏移量, 使用TGSize設定, 向右X為正, 向上Y為負 
+              };
+            //物理量的memo
+            var messageBox; var pTGMarker;
+            messageBox = new TGOS.TGInfoWindow(infotext[i], markerPoint[i], InfoWindowOptions);
+            physicMessageBox.push(messageBox);
+            messageBox.close();
+            messageBox.open(pMap);
+            messageBox.getContentPane().classList.add('messageBoxOpened');
+            messageBoxAdjuster(messageBox);
+          }
+      },
+      error: function() {
+          console.log("get json fail");
+      }
+  });
+
+}
+
+//
+function getToServer(url_){
+  var result = false;      
+  $.ajax({
+        url:url_,
+        type: 'GET',
+        dataType: "json",
+        async:false,
+        success: function(data) {
+            result = data;
+        },
+        error: function () {
+          console.log("get json fail");
+        }
+      });
+  return result;
+}; 
+
+
+
+  
+  
+  
+////$(".child_menu li").on('hover', function(e){
+//  console.log(e);
+//  if($(e).children().hasClass("show_banxioverview")) 
+//    $(".show_banxioverview").addClass("show");
+//  
+//},function(){
+//    setTimeout(function(){ alert("Hello"); }, 1000);
+//    setTimeout(function(){
+//      $(".show_banxioverview").removeClass("show");
+//      console.log("show");
+//  }, 2000);
+//  
+//});

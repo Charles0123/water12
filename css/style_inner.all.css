@@ -1,0 +1,155 @@
+.main {
+  height: inherit;
+  background-color: white;
+}
+#moniter .menu ul li a .text {
+    font-size: 1.1em !important;
+    padding-bottom: 24px !important;
+    line-height: 16px;
+}
+#moniter {
+  position: absolute;
+  width: calc(100% - 400px);
+  top: 100px;
+/*  height: auto !important;*/
+  float: right !important;
+  font-size: 14px;
+  padding: 30px 20px !important;
+  display: none;
+}
+#p2{
+  padding:0 !important; 
+}
+.stationInfo {
+  position: relative;
+}
+.stationInfo > div > div{
+  display: inline-block;
+/*  margin: 0 10px;*/
+  margin-left: 10px;
+  
+}
+.stationInfo > div:nth-of-type(even){
+  background-color: #f6f6f6;
+/*  width: 100%;*/
+}
+.stationInfo label {
+  color: #344e75;
+  font-family: "DFHei Std";
+  font-size: 14px;
+  line-height: 30px;
+}
+/*
+.stationInfo div div div {
+    float: right;
+  margin: 0 20px;
+}
+*/
+.underline {
+  position: relative;
+  display: inline-block;
+  font-family: "DFHei Std";
+  height: 12px;
+  border: 0;
+  border-bottom: 1px solid #22adec;  
+/*  box-shadow: 0px 1px 4px #d7e7ff;*/
+  padding: 20px;
+  margin: 1px 10px;
+  background-color: transparent;
+  font-size: 14px;
+  min-width: 150px;
+  text-align: center;
+  color: black;
+  height: 30px;
+  
+}
+
+/*
+.underline:read-only:not(:focus){
+    cursor: pointer;
+}
+*/
+.underline:focus {
+    border-color: #87c0fe;
+    box-shadow: 0 0 0 0.2rem rgba(135, 192, 254, 1);
+}
+.underline:after {
+  content: "\00a0 ";
+}
+
+.stationInfo #modification-list, .stationInfo #command-list {
+   position: relative;
+   top: -10px;
+   display: block;
+   font-family: "DFHei Std";
+   border: 1px solid #22adec;
+   padding: 10px;
+   margin: 0 0px;
+   background-color: white;
+   font-size: 14px;
+/*   text-align: center;*/
+   color: black;
+   min-height: 100px;
+  width: 100%;
+}
+.stationinfoTable {
+  position: relative;
+/*  overflow: auto;*/
+  overflow-x: hidden;
+}
+.stationinfoTable #grid-data {
+  height: calc(100vh - 40vh);
+}
+.stationinfoTable #grid-data .k-grid-content{
+  height: auto;
+}
+.stationinfoTable #gridalarm .k-grid-content{
+  height: calc(100vh - 50vh);
+/*  margin: 5px;*/
+  overflow: auto;
+}
+#p4 {
+  margin: 0 !important;
+  padding: 15px !important;
+  height: inherit;
+}
+#p4 .pic-left-nev {
+  position: relative;
+  float: left;
+  height: inherit;
+  padding: 10px 2px;
+  border-right: 1px solid gray;
+}
+#p4 .pic-left-nev div > input[type=button] {
+  background-color: white;
+  width: auto;
+  min-width: 100px;
+  color: #959595;
+  padding: 10px;
+  margin: 2px;
+}
+#p4 .pic-left-nev div.active input[type=button] {
+  background-color: #33b9ff;
+  width: auto;
+  min-width: 100px;
+  color: white;
+  padding: 10px 0;
+  margin: 2px;
+}
+
+#p5 .stationinfoTable h7 {
+  color: #052c5a;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+.inlie {
+  display: inline-block;
+  margin: 6px 0;
+}

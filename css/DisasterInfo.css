@@ -1,0 +1,343 @@
+body {
+  background-image: url(../images/report-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#dsr_Info {
+    position: relative;
+    margin: auto;
+    max-width: 1280px;
+    font-family: "DFHei Std";
+    font-size: 14px;
+    top: 135px;  
+  background-color: #143e71;
+  padding: 20px;
+  height: 82vh;
+}
+.tab_sheet{
+  margin: 0px;
+  padding: 0px;
+  padding-left: 15px;
+}
+#dsr_Info ul.tab_sheet > li{
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid #849db8;
+  border-bottom-style: none;
+  border-radius: 5px 5px 0 0;
+  padding:10px;
+  color: #849db8;
+  background-color: #143e71;
+  margin: 0 0px;
+  cursor: pointer; 
+}
+
+#dsr_Info ul.tab_sheet > li.active, #dsr_Info ul.tab_sheet > li:hover{
+  background-color:white;
+  color: #3366ff;
+}
+
+#dsr_Info ul.tab_sheet > li.active span{
+  border-top: 4px solid #c3f663; 
+  padding-top: 9px;
+}
+
+#tab_contant{
+  position: relative;
+  min-height: 400px;
+  overflow: hidden;
+  background-color: white;  
+  top: -2px;
+  width: 100%;
+  height: 74vh;
+  border: 6px solid white;
+  border-width: 6px 0;
+  /* overflow-y: scroll; */
+}
+/* table {
+  padding: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: #143e71; 
+  table-layout: fixed;
+
+  word-break: break-all;
+}
+table tr:first-child th{
+  background-color: #868794 !important;
+  color: white !important; 
+  height: 38px !important;
+  padding: 9px 0 !important; 
+  border: 1px solid white;
+  font-size: 14px;
+}
+table tr th{
+  background-color: #33b9ff;
+
+  border: 1px solid white;
+}
+table tr td{
+  border: 2px solid #3a5f98;
+  height: 28px;
+  word-break: break-all;
+}
+table tr th:first-child{
+  width: 100px;
+}
+table tr th{
+   width: auto;
+}
+table tr td{
+  line-height: 20px !important;
+  height: 20px !important;
+  padding: 5px 0 !important;
+  vertical-align: middle !important;
+  text-align: center;
+} */
+.tab.active {
+  display:block;
+  padding: 8px;  
+}
+
+/* .btn-outline-secondary {
+  margin: 0 15px;
+} */
+.btn-style {
+  display: block;
+  background-color: #eee;
+  border: 1px solid #d4d4d4;
+  color: #4c4948;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  float: right;
+}
+.tab {
+  display: none;
+  height: calc(100% - 20px); 
+  padding:0;
+  /* overflow: scroll; */
+}
+iframe {
+  border-width: 0;
+  width: 100%;
+  height: 428px;
+  /* height: calc(100% - 20px); */
+}
+
+#mountainRainfall table tr th:nth-of-type(7){
+  width: 16%;
+}
+.col-1{
+  width: 5%;
+}
+.col-2{
+  width: 40%;
+}
+.col-3{
+  width: 10%;
+}
+.col-4{
+  width: 15%;
+}
+.col-5{
+  width: 30%;
+}
+
+button {
+  width: 80px;
+  border: 1px solid #d4d4d4 !important;  
+}
+/* .btn-outline-secondary {
+  margin: 0 15px;
+} */
+.btn-style {
+  display: block;
+  background-color: #eee;
+  border: 1px solid #d4d4d4;
+  color: #4c4948;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  float: right;
+}
+
+.tab_head {
+  width: 100%;
+  height: 45px;
+  background-color: #fff;
+  border-bottom: 2px solid #ccc;
+  /* box-shadow: 0px 1px 2px #888888; */
+}
+.tab_head ul {
+  list-style-type: none;
+  margin: 0 60px;
+  padding: 0;
+}
+.tab_head ul li {
+  display: inline-block;  
+}
+.tab_head ul li:hover {
+  border-bottom: 3px solid #06befb;
+}
+.tab_head ul li a {
+  display: inline-block;
+  font-size: 14px;
+  color: #9daabc;
+  text-decoration: none;
+  border: 2px solid #849db8;
+  border-radius: 5px 5px 0 0;
+  padding:10px;
+  border-bottom-style: none;
+  margin: 0px;
+  cursor: pointer;
+}
+.tab_head ul li a.active,
+.tab_head ul li a:hover {
+  background-color: white;
+  color: #3366ff;
+}
+/* .tab_head ul li a.active{
+  border-top: 4px solid #c3f663;
+  padding-top: 3px;
+} */
+.tab_head ul li a.active span {
+  border-top: 4px solid #c3f663;
+  padding-top: 9px;
+}
+/* kendo */
+.k-grid thead {
+  background-color: #33b9ff;
+  color: #fff;
+}
+.k-grid .k-header-column-menu {
+  color: #fff;
+}
+
+.k-grid-excel {
+  float: right;
+}
+.tab_head a.btn {
+  position: relative;
+  right: 0;
+  top: 0;
+  font-size: 14px;
+  color: #fff;
+  background-color: #7562ca;
+  padding: 4px 20px;
+  border-radius: 20px;
+}
+.tab_head a.btn:hover {
+  color: #fff;
+}
+.tab_head a.btn .fa-plus {
+  font-size: 10px;
+  font-weight: 200;
+  padding-right: 5px;
+}
+
+.tab_body.active {
+  display: block;
+}
+.tab_body, .tab_head li {
+  display: none;
+}
+.tab_head li.active {
+  display: block;
+  border-bottom: 2px solid green;
+  color: blue;
+}
+#tabs-1 h6 {
+  margin-top: 8px;
+  margin-left: 3px;
+}
+.dropdown.bootstrap-select{
+  display: none !important;
+}
+@media screen and (min-width: 426px) and (max-width: 768px) { 
+  #dsr_Info .tab_sheet li:last-of-type {
+    width: 32%;
+    text-align: center;
+  }
+  #dsr_Info .tab_sheet li:not(:last-of-type) {
+    width: 32%;
+    text-align: center;
+  }
+  /* #dsr_Info .tab_sheet li:nth-child(7) {
+    width: 48.2%;
+    text-align: center;
+  } */
+    table tr th:first-child {
+    width: 10%;
+  }
+  .col-1{
+    width: 5%;
+  }
+  .col-2{
+    width: 40%;
+  }
+  .col-3{
+    width: 10%;
+  }
+  .col-4{
+    width: 15%;
+  }
+  .col-5{
+    width: 30%;
+  }
+  .btn-outline-secondary {
+    margin: 0;
+  }
+  .tab_head ul {
+    margin: 0 50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  #dsr_Info .tab_sheet li:last-of-type {
+    width: 46.9%;
+    text-align: center;
+  }
+  #dsr_Info .tab_sheet li:not(:last-of-type) {
+    width: 47%;
+    text-align: center;
+  }
+  #dsr_Info .tab_sheet li:nth-child(7) {
+    width: 94.9%;
+    text-align: center;
+  }
+  table tr th:first-child {
+    width: 10%;
+  }
+  .tg td {
+    font-size: 12px;
+  }
+  .tg th {
+    font-size: 12px;
+  }
+  .tg {
+    width: 1000px !important;
+    padding: 2px;
+    overflow: scroll;
+  }
+  table {
+    width: 800px;
+  }
+  .tab_head {
+    height: auto;
+  }
+  .tab_head ul {
+    margin: 0;
+  }
+  /* .tab_head ul li a {
+    padding: 10px 50px;
+  } */
+}
+
+.cont-tab {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 20px);
+  overflow: auto;
+  border-top: 1px solid #dcdcdc;
+}
+
+
